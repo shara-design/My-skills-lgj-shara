@@ -1,0 +1,129 @@
+---
+name: pre-qualification-prompt
+description: Generate Clay list pre-qualification prompts based on a client's offer and intake form. Use this skill whenever the user wants to write a qualification prompt, pre-qualify a lead list, create a Clay prompt for filtering prospects, qualify leads for a specific client, or verify that a list matches a client's ICP. Trigger on mentions of "qualification prompt", "clay prompt", "pre-qualify list", "qualify leads", "list qualification", "qualified or disqualified", or when the user references an intake form and wants to filter leads based on the client's offer.
+---
+
+# Clay Qualification Prompt Generator
+
+You generate structured prompts that Clay uses to research companies and classify them as "qualified" or "disqualified" based on a client's specific offer.
+
+## Why this matters
+
+LeadGenJay builds prospect lists for clients across many different industries and offers. Before launching campaigns, lists need to be verified — a plumbing company lead is worthless if the client sells SaaS to enterprise. Clay can automate this verification, but only if it has a well-crafted prompt that captures the nuances of the client's offer, ICP, and target market. A good qualification prompt saves hours of manual list review and prevents wasted outreach.
+
+## Step 1: Gather the client's offer details
+
+Read the client's intake form. This is usually at `intake-form.md` in the client's project directory, which links to a Google Doc. Read the Google Doc using `read_google_doc`.
+
+Extract these details from the intake:
+
+- **What they sell** — the core product or service, how it works, what problem it solves
+- **Who they sell to (ICP)** — company size (employees, revenue), industry, business type
+- **Target industries** — the specific industries listed, plus any logical adjacent industries the client didn't mention but would clearly fit
+- **Geographic scope** — where they operate (US only, specific regions, global)
+- **Job titles** — who the buyer is (this helps understand the type of company, not used directly in the prompt)
+- **Explicit exclusions** — industries or business types the client specifically does NOT want
+- **The qualification hinge** — the single most important factor that separates a qualified company from a disqualified one (e.g., "do they invoice customers?" or "do they have IT infrastructure?" or "do they have a sales team?")
+
+## Step 2: Identify the qualification hinge
+
+This is the most important step. Every offer has a core qualifier — the one thing that determines whether a company could plausibly be a customer. Think about what makes a company a fit vs. not a fit at the most fundamental level.
+
+Examples of qualification hinges by offer type:
+
+| Offer | Qualification Hinge |
+|-------|-------------------|
+| Payment processing for invoicing businesses | Do they send invoices to collect payment? |
+| Refurbished IT hardware | Do they buy/use servers, workstations, networking gear? |
+| HR software | Do they have enough employees to need HR tools? |
+| Commercial cleaning | Do they have office/facility space that needs cleaning? |
+| Cybersecurity services | Do they have digital infrastructure worth protecting? |
+
+The hinge drives everything — it determines what goes in the qualified list, the disqualified list, and the tiebreaker rule.
+
+## Step 3: Generate the prompt
+
+Follow this exact structure. Do not deviate from this format — Clay processes it consistently when structured this way.
+
+### Opening paragraph
+
+Write a single paragraph that:
+1. States what type of companies you're targeting and why
+2. Briefly explains the client's offer (1-2 sentences, plain language)
+3. Gives Clay its instructions: research the company and output either "qualified" or "disqualified"
+
+Template:
+```
+I am trying to target only companies who might be interested in [description of the client's offer in plain language]. [1-2 sentences explaining what the offer does, who it's for, and what benefit it provides]. I am going to give you the company name and website, and you will research them and output one of two possible outputs. Either output "qualified" if they could plausibly [benefit verb matching the offer]. Output "disqualified" if they would not.
+```
+
+### Qualified examples
+
+List 15-25 specific business types that match the client's ICP. Start with the industries the client explicitly listed, then add logical adjacent industries they didn't mention but would clearly fit. Be specific — "HVAC companies" is better than "service businesses."
+
+Format as a single paragraph with comma-separated entries, ending with a catch-all rule that captures the pattern:
+```
+**Example businesses that are qualified:** [specific type 1], [specific type 2], ... — or any [catch-all description matching the qualification hinge] with [size/revenue/employee criteria from the ICP].
+```
+
+### Disqualified examples
+
+List 10-15 specific business types that clearly would NOT need the offer. Focus on:
+- Businesses that are the opposite of the qualification hinge
+- Businesses that might superficially seem related but don't actually fit
+- Common business types that would waste outreach
+
+Format the same way, ending with a catch-all exclusion rule:
+```
+**Example businesses that are disqualified:** [specific type 1], [specific type 2], ... or any business that [catch-all description of why they don't fit the qualification hinge].
+```
+
+### When in doubt tiebreaker
+
+Write a single paragraph that tells Clay how to decide borderline cases. Always lean toward "qualified" when the signals are ambiguous. Reference specific, observable signals from the company's website or description:
+
+```
+**When in doubt:** If the company's website suggests they [observable signal 1], [observable signal 2], or [observable signal 3], has [employee/size threshold], and operates in [geographic scope], lean toward qualified.
+```
+
+### Input placeholders
+
+Always end with exactly these three lines:
+```
+Company name: .
+Company website: .
+Company Description: .
+```
+
+## Quality checks
+
+Before presenting the prompt, verify:
+
+- [ ] The opening paragraph accurately describes the client's offer (don't embellish or add claims not in the intake)
+- [ ] Qualified examples include ALL industries the client explicitly listed
+- [ ] Qualified examples include 5-10 additional adjacent industries that logically fit
+- [ ] Disqualified examples are genuinely poor fits, not just "different" industries
+- [ ] The tiebreaker rule references the qualification hinge and leans toward qualified
+- [ ] Size/revenue/employee criteria match the client's stated ICP
+- [ ] Geographic scope matches the client's service area
+- [ ] The three input placeholder lines are present at the end
+
+## Example
+
+Here's a complete example for a payment processing company targeting invoicing businesses:
+
+---
+
+I am trying to target only companies who might be interested in a payment processing solution that eliminates 90%-100% of their credit card processing fees through dual pricing / cash discount invoicing. The solution applies to businesses that use invoices (not retail point-of-sale) as their primary method of collecting customer payments. The company pays zero setup costs, zero cancellation fees, and can cancel anytime. I am going to give you the company name and website, and you will research them and output one of two possible outputs. Either output "qualified" if they could plausibly benefit from this solution. Output "disqualified" if they would not.
+
+**Example businesses that are qualified:** Commercial printing companies, plumbing & electrical services, HVAC companies, home construction & renovation contractors, interior design firms, freight trucking companies, healthcare providers (private clinics, dentists), medical billing companies, custom furniture makers, landscaping and lawncare services, pool & spa services, residential pest control companies, roofing & gutter services, auto repair & body shops, marketing agencies, accounting firms, engineering firms, architectural firms, IT consulting companies, staffing agencies, janitorial & cleaning services, event planning companies, legal firms, surveying companies, environmental services — or any B2B or service-based company with 5-50 employees and roughly $1M-$20M in annual revenue that sends invoices to collect payment from customers or clients rather than processing transactions at a retail point-of-sale terminal.
+
+**Example businesses that are disqualified:** Retail storefronts (convenience stores, clothing boutiques, grocery stores), restaurants, bars, coffee shops, fast food franchises, gas stations, food trucks, SaaS companies that collect payments via automated online subscriptions with no invoicing, e-commerce-only businesses using Shopify/Stripe checkout flows, solo freelancers with no employees, businesses with fewer than 5 employees, nonprofit charities relying on donations rather than invoiced services, or any business whose primary payment collection happens at a physical point-of-sale terminal rather than through invoicing.
+
+**When in doubt:** If the company's website suggests they provide a service or product that is billed via invoices (project-based work, contracted services, recurring service agreements, wholesale/B2B transactions), has 5+ employees, and operates in the U.S., lean toward qualified.
+
+Company name: .
+Company website: .
+Company Description: .
+
+---

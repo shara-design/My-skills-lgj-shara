@@ -1,239 +1,192 @@
 ---
-name: bison-campaign-creator
-description: Creates cold email campaigns in EmailBison (Bison) with properly formatted spintax variations. Use when user asks to "create Bison campaign", "set up cold email campaign", "build email sequence in Bison", mentions "EmailBison", or provides campaign details with sequences and spintax requirements. Handles multi-step sequences with Bison-specific spintax format using single curly brackets.
-license: MIT
-metadata:
-  author: Cold Email Strategist
-  version: 1.0.0
-  mcp-server: bridgekit
-  category: email-marketing
-  tags: [cold-email, bison, spintax, sequences, outreach]
+name: cold-email-copywriting
+description: "Write cold email sequences with copy constraints, spintax, and deliverability rules. Reads strategy from workspace if available, or works standalone. Use when writing cold emails, email sequences, cold email copy, generating spintax, or when someone says 'write cold emails', 'email sequence', 'cold email copy', 'write sequence for'. This is Step 2 of the 4-skill chain: strategy -> copywriting -> ab-testing -> campaign-deploy."
 ---
 
-# Bison Campaign Creator
+# Cold Email Copywriting
 
-## Overview
+Write a complete cold email sequence with platform-aware spintax, deliverability-safe copy, and subject lines. This skill produces the control copy (one body per email position) that feeds the A/B testing skill downstream.
 
-This skill enables you to create professional cold email campaigns in EmailBison (Bison) with properly formatted spintax variations. It handles the complete workflow from campaign setup to multi-step sequence creation with Bison-specific spintax formatting.
+**Skill chain:** `cold-email-strategy` -> `cold-email-copywriting` (you are here) -> `cold-email-ab-testing` -> `cold-email-campaign-deploy`
 
-## Instructions
+---
 
-### Step 1: Gather Campaign Requirements
+## Before You Start
 
-When a user requests campaign creation, collect:
+**Read the knowledge base.** Before writing any copy, read the relevant files from `/Users/jayfeldman/Documents/Tech & Dev/knowledge-base/Cold Email/`:
 
-1. **Client Account**: Which Bison account/client to use (e.g., "Todd Fuller")
-2. **Number of Campaigns**: How many campaigns to create
-3. **Campaign Details** for each:
-   - Campaign name/type (e.g., "Campaign A - Invoice Processing")
-   - Target industry/audience
-   - Subject line (with spintax if provided)
-   - Sequence steps with content and timing
+| Working on... | Read first |
+|---------------|-----------|
+| Subject lines | `Copywriting/subject-lines.md` |
+| Opening / first lines | `Copywriting/opening-lines.md` |
+| Email body structure | `Copywriting/email-body-frameworks.md` |
+| CTA patterns | `Copywriting/cta-patterns.md` |
+| Spintax | `Copywriting/spintax-guide.md` |
+| Sequence timing | `Sequences/sequence-architecture.md` |
 
-### Step 2: Connect to Bison Account
+**Query NotebookLM.** The "Cold Email Strategy & Copywriting" notebook (ID: `cold-email-strategy-copywritin`) has expert copywriting angles and frameworks. Query it when you need inspiration for a specific angle or want to validate a copy approach.
 
-Use the bridgekit MCP tools to:
+---
 
+## Pre-Flight: Load Strategy Context
+
+Check for workspace output from the strategy skill:
+
+1. Look for `scripts/campaigns/{campaign-name}/strategy.md`
+2. If found, load: ICP pain points, offer positioning, messaging angles (Pain Dagger / Proof Machine / Value Gift), tone profile, CTA strategy, sequencer choice
+3. If NOT found, ask the user for the minimum context needed to write:
+   - Who is the target audience? (title, industry, company size)
+   - What is the offer? (one sentence)
+   - What tone? (casual/professional/direct)
+   - CTA strategy? (book a call or lead magnet)
+   - Which sequencer? (Email Bison or Instantly)
+
+Also check `.metadata.json` if it exists. If strategy phase is marked complete, confirm the campaign name and proceed.
+
+---
+
+## Sequence Architecture
+
+### 4-Email Structure
+
+| Email | Purpose | Thread | Day Offset | What Changes |
+|-------|---------|--------|-----------|--------------|
+| 1 | **The Pitch** | New | 0 | Your best shot. Why you, why now, pain/value, proof, CTA |
+| 2 | **The Nudge** | Reply to 1 | 2-3 | Ultra-brief. Bump the thread or add one new context point |
+| 3 | **The Pivot** | New or reply | 5-7 | Completely different value lever. If E1 = save time, E3 = make money |
+| 4 | **The Breakup** | Reply to 3 | 12-14 | Not desperate. Ask if wrong person or wrong timing. Skip for large TAM |
+
+### CTA Progression
+
+The CTA gets softer as the sequence progresses:
+
+**Book a Call path:** Permission ("Mind if I send over...?") -> Bump ("Still relevant?") -> Even lower friction ("If I made a short video, would you watch it?") -> Redirect ("Better person to reach out to?")
+
+**Lead Magnet path:** Offer resource -> Bump -> Different resource -> Redirect
+
+---
+
+## Copywriting Engine
+
+### The 4-Sentence Structure
+
+Every cold email follows this skeleton:
+
+| Sentence | Purpose | What it does |
+|----------|---------|-------------|
+| 1 | **Why you, why now** | Prove you did research. Reference something specific about their business (NOT signals like funding/hiring) |
+| 2 | **Poke the bear / How you help** | Connect research to their pain, or bridge directly to your solution |
+| 3 | **Social proof** | Name a specific client and a specific result with real numbers. If no case studies, use experience signals: "After building 40+ automations for ecommerce brands..." |
+| 4 | **CTA** | One question. Answerable with "yes" or "sure." One thumb. Under a minute |
+
+### Writing Rules
+
+Cold emails should read like a message from a sharp friend who happens to know about your problem, not a marketing pitch. Every sentence must earn the next sentence.
+
+**Sentence 1:** Reference something about their business that shows you understand their world. Do NOT reference intent signals (fundraising, growth, hiring, job postings) in the copy itself. Signals are for targeting, not for email body. The prospect doesn't want to feel surveilled.
+
+**Sentence 2:** Use the acute pain questions from the ICP. The more specific the pain, the more the prospect feels understood. Vague pain = vague results.
+
+**Sentence 3:** "We helped [Company] achieve [metric]" with real numbers. Without specifics, social proof falls flat.
+
+**Sentence 4:** Never ask for a calendar commitment in Email 1. One question that can be answered with a thumbs-up.
+
+### Copy Constraints
+
+Read `references/copy-constraints.md` for the full checklist. The critical rules:
+
+- **Plain text only** (HTML signals marketing blast)
+- **Under 100 words, target 75** (long emails don't get read and trigger spam filters)
+- **6th grade reading level** (if they re-read a sentence, you lost them)
+- **No links in Email 1** (links in first-touch signal automation to ESPs)
+- **No tracking pixels or link tracking** (invisible HTML that screams "bulk email")
+- **No unsubscribe link** (use conversational opt-out: "If I'm barking up the wrong tree, just let me know")
+- **No images or attachments**
+- **No spam trigger words anywhere in email body or subject line:** free, guarantee, act now, limited time, click here, buy now, discount, winner, urgent, 100%, risk-free. This includes describing your offer as "free" — say "complimentary," "no cost," or "no strings attached" instead
+- **ZERO em dashes (—), en dashes (–), or double hyphens (--)** anywhere in email copy, subject lines, or CTA text. They are the #1 AI detection signal. Scan every sentence character-by-character before finalizing. Replace with a comma, period, or split into two sentences. Example: "Most agencies I talk to — they spend hours" becomes "Most agencies I talk to spend hours"
+- **No signal references in copy.** Do not mention fundraising, growth, hiring plans, job postings in the email body
+- **First name is the only personalization variable.** No company name, industry, city, or other merge fields
+- **Include sender signature in sign-off.** `{SENDER_EMAIL_SIGNATURE}` (Email Bison) or platform equivalent after the sign-off word
+
+### Self-Evaluation Loop
+
+After writing the first draft of all emails, run this check:
+
+1. **Re-read each email as the prospect.** Would you reply? Why or why not?
+2. **"So What?" test.** Does every sentence earn its place? Take every feature and ask "so what?" until you reach the human outcome.
+3. **AI smell scan (MANDATORY).** Scan every email character-by-character for em dashes (—), en dashes (–), or double hyphens (--). If ANY are found, replace with a comma or period and rewrite the sentence. Also check: any phrase a real human wouldn't text to a friend? Rewrite it.
+4. **Pain specificity check.** Is the pain specific or generic? "Struggling with lead gen" is generic. "Spending 6 hours a week manually scraping LinkedIn for decision-maker emails" is specific.
+5. **Signal reference check.** Did you mention fundraising, growth, hiring, job postings, or other intent signals in the copy? Remove them.
+6. **Personalization variable check.** The only merge field allowed is first name. Remove any company name, industry, city tokens.
+7. **Platform format check.** Verify EVERY token and spintax block matches the chosen sequencer. Email Bison: `{FIRST_NAME}`, `{option|option}`, `{SENDER_EMAIL_SIGNATURE}`. Instantly: `{{firstName}}`, `{{RANDOM | option | option}}`. If even ONE block uses the wrong format, fix it.
+8. **Spam word scan.** Search every email body and subject line for: free, guarantee, act now, limited time, click here, buy now, discount, winner, urgent, 100%, risk-free. Replace "free" with "complimentary" or "no cost."
+9. **If anything fails, rewrite and re-evaluate.** Keep iterating until every email passes all checks.
+
+---
+
+## Subject Line Generation
+
+Generate 2-3 subject line variants per email position. Test ONE variable per position:
+
+- Length (short <5 words vs medium 5-10)
+- Format (question vs statement)
+- Personalization (name-first vs no name)
+- Tone (casual vs formal)
+
+Subject lines should sound internal, not promotional. They should make the prospect think "this might be from a colleague" not "this is a sales email."
+
+For follow-up emails that thread (E2 reply to E1, E4 reply to E3): use `Re:` prefix with the original subject, or empty subject for threading (Instantly: `""`, Email Bison: same subject).
+
+---
+
+## Platform-Aware Spintax
+
+The syntax differs between sequencers:
+
+**Email Bison** (use EXACTLY these token formats):
 ```
-1. Call get_bison_clients to list available clients
-2. Identify the correct client by name
-3. Use that client's information for campaign creation
-```
-
-### Step 3: Apply Bison Spintax Rules
-
-**CRITICAL**: Bison uses a specific spintax format that MUST be followed exactly:
-
-#### Spintax Format Rules:
-- Use single curly brackets `{}` - Format: `{option1|option2}`
-- Separate variations with `|` (pipe character)
-- No spaces required around pipes (but allowed)
-- Limit to 2 options per spin block (recommended for deliverability)
-- Each option must be grammatically correct on its own
-- Can stack spintax in same line: `{Hello|Hi} {there|friend}`
-- Keep variables exactly as provided: `{FIRST_NAME}`, `{COMPANY}`, `{SENDER_EMAIL_SIGNATURE}`
-
-#### Good Spintax Examples:
-```
-{Hey|Hi} {FIRST_NAME}
-{Quick question|Curious about something}
-{We just helped|A printing company we work with|One of our clients}
-{No friction, no complaints.|Zero pushback from their customers.}
-```
-
-#### Bad Spintax Examples (DO NOT USE):
-```
-{{option1||option2}}  // Wrong bracket style
-[option1|option2]      // Wrong bracket type
-{option1/option2}      // Wrong separator
-{option1, option2}     // Wrong separator
-```
-
-### Step 4: Structure Each Sequence Step
-
-For each email step in the sequence:
-
-1. **Subject Line**: Apply spintax if variations provided
-2. **Email Body**: Apply spintax following the rules above
-3. **Timing**: Day 0, Day 3, Day 5, etc.
-4. **Step Type**: Initial email or thread reply
-
-**Template Structure**:
-```
-Step X: [Name] (Day Y, [initial/thread reply])
-
-Subject: {variation1|variation2} if applicable
-
-{Opening|Greeting} {FIRST_NAME},
-
-{Sentence variant 1|Sentence variant 2}. {Next sentence variant 1|Next sentence variant 2}
-
-{Closing|Sign-off},
+{Hi|Hey|Hello} {FIRST_NAME},
+{Best|Cheers|Talk soon},
 {SENDER_EMAIL_SIGNATURE}
 ```
+Tokens: `{FIRST_NAME}` (uppercase), `{SENDER_EMAIL_SIGNATURE}`. Spintax: `{option1|option2|option3}`.
 
-### Step 5: Create Campaigns via MCP
+**Instantly** (use EXACTLY these token formats):
+```
+{{RANDOM | Hi | Hey | Hello}} {{firstName}},
+{{RANDOM | Best | Cheers | Talk soon}},
+```
+Tokens: `{{firstName}}` (camelCase). Spintax: `{{RANDOM | option1 | option2 | option3}}`.
 
-Use bridgekit tools to create each campaign:
+**NEVER mix formats.** If the sequencer is Email Bison, every token and every spintax block must use Email Bison syntax. If Instantly, every one must use Instantly syntax. No exceptions.
 
-```python
-# Create campaign
-create_bison_sequence(
-    client_name="Client Name",
-    campaign_name="Campaign A - Description",
-    subject_line="Subject with {spintax|variations}",
-    steps=[
-        {
-            "day": 0,
-            "type": "initial",
-            "content": "Email body with {proper|correct} spintax"
-        },
-        {
-            "day": 3,
-            "type": "thread_reply",
-            "content": "Follow-up with {more|additional} spintax"
-        }
-    ]
-)
+Apply spintax to: greetings, transitions, CTAs, sign-offs. Minimum 3 options per spintax block. Spintax prevents ESPs from detecting identical templates across sends.
+
+---
+
+## Output & Handoff
+
+### Workspace output
+
+Write the complete sequence to `scripts/campaigns/{campaign-name}/copy/sequence.md` containing:
+
+For each email position (E1-E4):
+- Subject line variants (2-3 per position)
+- Email body (control version with spintax applied)
+- Day offset and threading info
+- CTA type
+
+### Metadata update
+
+Update `scripts/campaigns/{campaign-name}/.metadata.json`:
+```json
+{
+  "phases": {
+    "copywriting": { "status": "complete", "completed_at": "{ISO}", "output": "copy/sequence.md" }
+  }
+}
 ```
 
-### Step 6: Quality Validation
+### Next step
 
-Before finalizing, verify:
-
-✅ All spintax uses single curly brackets `{}`
-✅ Maximum 2 options per spin block
-✅ All variables preserved exactly: `{FIRST_NAME}`, `{COMPANY}`, etc.
-✅ Each spintax option is grammatically complete
-✅ No broken fragments or incomplete sentences
-✅ Proper spacing and punctuation
-
-### Step 7: Confirm Creation
-
-After creating campaigns:
-1. Confirm each campaign was created successfully
-2. Provide campaign names and IDs
-3. Show sample of the spintax output
-4. Offer to make adjustments if needed
-
-## Common Campaign Patterns
-
-### Pattern 1: B2B Service Campaign
-- Day 0: Problem identification + case study
-- Day 3: Social proof + specific numbers
-- Day 5: Final value proposition
-
-### Pattern 2: Patient/Customer Campaign
-- Day 0: Patient-focused angle + solution
-- Day 3: Dollar impact + benefits
-- Day 5: Urgency or limited offer
-
-### Pattern 3: Creative/Professional Services
-- Day 0: Pain point + quick win
-- Day 3: Detailed solution + proof
-- Day 5: Call to action
-
-## Spintax Best Practices
-
-### Opening Variations
-```
-{Hey|Hi} {FIRST_NAME}
-{Quick question|Curious about something}
-{Quick thought|Quick one}
-{Following up|Bumping this}
-```
-
-### Question Variations
-```
-{What's {COMPANY} paying in|How much is {COMPANY} losing to|Is {COMPANY} eating}
-{Want me to send|Should I send|Can I send}
-{Happy to send|Want me to send one|Should I send one}
-```
-
-### Social Proof Variations
-```
-{We just helped|A company we work with|One of our clients}
-{Their customers|The clients|Users}
-{No friction, no complaints.|Zero pushback.|Actually prefer having the option.}
-```
-
-### Closing Variations
-```
-{Best|Thanks}
-{Want me to|Should I|Can I}
-{Happy to|Want me to|Should I}
-```
-
-## Troubleshooting
-
-### Issue: Spintax not rendering correctly
-**Cause**: Using wrong bracket format or separator
-**Solution**: Verify using single `{}` and `|` separator
-
-### Issue: Variables broken in output
-**Cause**: Spintax applied to variable names
-**Solution**: Keep variables exact: `{FIRST_NAME}` never `{FIRST_NAME|FIRSTNAME}`
-
-### Issue: Grammatically incorrect variations
-**Cause**: Incomplete sentence fragments in spintax options
-**Solution**: Each option must be complete: `{We helped|We worked with}` not `{helped|worked with}`
-
-### Issue: Campaign not created in Bison
-**Cause**: MCP connection or authentication issue
-**Solution**: Verify Bison client connection, check for API errors, retry with correct client ID
-
-## Examples
-
-### Example 1: Creating 4 Campaigns for Todd Fuller
-
-**User request**: "Create 4 campaigns in Todd Fuller's Bison account for invoice processing services"
-
-**Actions**:
-1. Connect to Todd Fuller's Bison account via `get_bison_clients`
-2. Create Campaign A with invoice processing focus
-3. Create Campaign B with patient payment angle
-4. Create Campaign C with creative services focus
-5. Create Campaign D with healthcare focus
-6. Apply proper spintax to all sequences
-7. Confirm all 4 campaigns created successfully
-
-### Example 2: Single Campaign with Custom Spintax
-
-**User provides**: Raw email copy with spintax instructions
-
-**Actions**:
-1. Parse the provided email content
-2. Apply Bison spintax format: `{option1|option2}`
-3. Structure into sequence steps
-4. Create campaign via MCP
-5. Validate spintax rendering
-6. Confirm creation
-
-## Critical Reminders
-
-- **ALWAYS** use single curly brackets `{}` for spintax
-- **NEVER** modify variable names like `{FIRST_NAME}`, `{COMPANY}`, `{SENDER_EMAIL_SIGNATURE}`
-- **LIMIT** to 2 options per spin block for deliverability
-- **VERIFY** each spintax option is grammatically complete
-- **TEST** one campaign first before batch creation
-- **CONFIRM** with user before creating multiple campaigns
+Tell the user: "Sequence written with control copy for all 4 positions. Run `/cold-email-ab-testing` to generate A/B variants (minimum 3 for E1, 2 each for E2-E4)."

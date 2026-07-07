@@ -1,0 +1,26 @@
+[
+  {
+    "include_title": ["Chief Revenue Officer", "CRO", "VP Sales", "Head of Growth"],
+    "exclude_title": ["assistant", "intern", "junior"],
+    "location": ["US", "CA"],
+    "include_headline_search": false
+  },
+  {
+    "include_title": ["Sales Director", "Director of Business Development"],
+    "exclude_title": ["assistant", "intern", "junior"],
+    "location": ["US", "CA"],
+    "include_headline_search": true
+  },
+  {
+    "include_title": ["Sales Manager", "Account Executive Team Lead"],
+    "exclude_title": ["assistant", "intern", "junior"],
+    "location": ["WORLD"],
+    "include_headline_search": false
+  },
+  {
+    "include_title": ["CEO", "Founder", "Owner"],
+    "exclude_title": ["assistant", "intern"],
+    "location": ["WORLD"],
+    "include_headline_search": false
+  }
+]

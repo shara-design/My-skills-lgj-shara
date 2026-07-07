@@ -1,0 +1,11 @@
+{
+  "_comment": "Company Search request body (firmographic filters only — returns companies, no people). Run: node blitz.mjs search-companies --icp=examples/icp-companies.json --max=300 --out=companies.csv. Filters are AND across fields, OR within a field. Page size capped at 25.",
+  "company": {
+    "keywords": { "include": ["SaaS"] },
+    "industry": { "include": ["Software Development"] },
+    "hq": { "country_code": ["US", "CA"] },
+    "employee_range": ["51-200", "201-500"],
+    "revenue": { "min": 1000000, "max": 0 },
+    "founded_year": { "min": 2010, "max": 0 }
+  }
+}

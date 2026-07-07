@@ -1,0 +1,14 @@
+{
+  "_comment": "Find People request body. Company filters qualify accounts; people filters qualify contacts inside them. Run: node blitz.mjs search-people --icp=examples/icp-people.json --max=500 --out=people.csv --enrich=email. All enum values are CASE-SENSITIVE (see README.md / docs.blitz-api.ai/guide/reference/normalization).",
+  "company": {
+    "industry": { "include": ["IT Services and IT Consulting", "Software Development"] },
+    "employee_range": ["51-200", "201-500"],
+    "hq": { "sales_region": ["EMEA"] },
+    "type": { "include": ["Privately Held"] }
+  },
+  "people": {
+    "job_level": ["VP", "Director"],
+    "job_function": ["Sales & Business Development", "Advertising & Marketing"],
+    "min_connections": 200
+  }
+}

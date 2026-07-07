@@ -1,0 +1,170 @@
+{
+  "skill_name": "cold-email-copywriting",
+  "domain": "copywriting",
+  "evals": [
+    {
+      "id": 1,
+      "name": "b2b-saas-email-bison-with-strategy",
+      "prompt": "Write a cold email sequence for PostPilot, a B2B SaaS tool that automates social media scheduling and analytics for marketing agencies.\n\nStrategy context (from strategy skill output):\n- ICP: Marketing agency owners/founders, 5-50 employees, US\n- Pain points: Spending 6+ hours/week manually scheduling posts across client accounts, inconsistent posting killing engagement metrics, no unified analytics dashboard\n- Offer: $149/mo starter plan, automates scheduling across 8+ client accounts\n- Value lever: Save time\n- Case study: 12-person agency went from posting 3x/week to daily across 8 client accounts, saving 15 hours/week\n- Messaging angles: Pain Dagger (time spent scheduling), Proof Machine (15hr/week savings), Value Gift (free workflow audit)\n- Tone: 2/5 formality, casual, direct, founder-to-founder\n- CTA strategy: Book a call\n- Front-end offer: Free workflow audit of their current scheduling setup\n- Sequencer: Email Bison\n- Sender: Sarah Chen, Founder\n- Campaign name: postpilot-agencies",
+      "expected_output": "4-email sequence with Email Bison spintax, subject lines, bodies under 100 words, proper signature token, CTA progression from permission-based to breakup",
+      "expectations": [
+        "Exactly 4 emails produced (E1-E4) with clear position labels",
+        "Every email body is under 100 words (excluding greeting, sign-off, and signature token)",
+        "Email Bison spintax format used: {option1|option2|option3} NOT {{RANDOM | ...}}",
+        "Personalization token is {FIRST_NAME} (Email Bison format), not {{firstName}}",
+        "No em dashes or en dashes anywhere in any email",
+        "No signal references in copy (no mentions of fundraising, growth, hiring, job postings)",
+        "First name is the ONLY personalization variable — no company name, industry, or city merge fields in body",
+        "{SENDER_EMAIL_SIGNATURE} token present after sign-off in every email",
+        "Subject line variants provided for E1 and E3 (at least 2 per position)",
+        "E2 is threaded (reply to E1) — either empty subject or Re: prefix noted",
+        "E4 is threaded (reply to E3) — either empty subject or Re: prefix noted",
+        "CTA progression visible: E1 permission-based, E2 soft bump, E3 lower friction, E4 redirect/breakup",
+        "E3 pivots to a DIFFERENT value lever than E1 (not same angle reworded)",
+        "Case study data (15 hours/week, 8 client accounts) appears in at least one email",
+        "No spam trigger words (free, guarantee, act now, limited time, click here, buy now, discount, urgent, 100%, risk-free)",
+        "Spintax applied to greetings, transitions, CTAs, and sign-offs (minimum 3 options per block)",
+        "Day offsets specified for each email position",
+        "E1 subject line and first line do NOT telegraph 'this is a cold email' (no research-flex opener like 'Curious about [Company]'s recent...'); they read as internal/vendor/friendly and provoke curiosity",
+        "E1 CTA gives the fix or offers value answerable with a simple 'yes' — NOT 'let me share what we do' or 'send a rundown of how X works'",
+        "Email bodies are broken into short lines with white space, not one solid block of text"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "local-service-instantly-with-strategy",
+      "prompt": "Write a cold email sequence for BrightSmile Dental Marketing, a dental marketing agency in Austin, TX that builds patient acquisition systems for dental practices.\n\nStrategy context:\n- ICP: Dental practice owners, 3-20 employees, Texas and surrounding states\n- Pain points: Relying on insurance referrals that pay less every year, spending $3K+/mo on Google Ads with no tracking, losing new patients to the practice down the street with better online reviews\n- Offer: Done-for-you patient acquisition system ($2,500/mo)\n- Value lever: Make money (more new patients)\n- Case study: Helped Austin Family Dental go from 12 to 47 new patients/month in 90 days\n- Messaging angles: Pain Dagger (insurance dependency), Proof Machine (12 to 47 patients), Value Gift (free Google presence audit)\n- Tone: 3/5 formality, friendly, knowledgeable, not salesy\n- CTA strategy: Lead magnet (free audit)\n- Front-end offer: Complimentary Google presence audit\n- Sequencer: Instantly\n- Sender: Marcus Rivera, Founder\n- Campaign name: brightsmile-dental",
+      "expected_output": "4-email sequence with Instantly spintax format, proper threading, platform-specific tokens",
+      "expectations": [
+        "Exactly 4 emails produced (E1-E4)",
+        "Every email body under 100 words",
+        "Instantly spintax format used: {{RANDOM | option1 | option2 | option3}} NOT {option1|option2|option3}",
+        "Personalization token is {{firstName}} (Instantly format), not {FIRST_NAME}",
+        "No em dashes or en dashes anywhere",
+        "No signal references in copy",
+        "First name is the ONLY personalization variable",
+        "Subject line variants provided for E1 and E3",
+        "E1 CTA is lead-magnet oriented (offers audit or resource, NOT asking for a call)",
+        "Case study data (12 to 47 new patients, 90 days) appears in at least one email",
+        "No spam trigger words",
+        "Spintax has 3+ options per block",
+        "E3 pivots value lever (if E1 = make money, E3 = save money or save time)",
+        "No links in Email 1",
+        "Threading info specified (E2 replies to E1, E4 replies to E3)",
+        "E1 subject line and first line do NOT telegraph 'this is a cold email'; they read as internal/vendor/friendly and provoke curiosity",
+        "E1 CTA gives the fix or offers value answerable with a simple 'yes' — NOT 'let me share what we do'",
+        "Email bodies are broken into short lines with white space, not one solid block of text"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "standalone-no-strategy-file",
+      "prompt": "Write a cold email sequence for my company. Here's what you need to know:\n- We're a fractional CFO firm called Meridian Partners targeting Series A SaaS startups\n- We helped a fintech extend their runway by 9 months and then led their $18M Series B\n- Retainer is $8K-15K/mo\n- Target: SaaS founders and CEOs, 20-100 employees\n- Tone: professional but not stiff, 3-4 formality\n- CTA: book a strategy call\n- Sequencer: Email Bison\n- Sender: David Park, Managing Partner",
+      "expected_output": "4-email sequence written from standalone context (no strategy workspace file), using the provided details correctly",
+      "expectations": [
+        "Exactly 4 emails produced without asking for a strategy file",
+        "Every email body under 100 words",
+        "Email Bison spintax format used: {option1|option2|option3}",
+        "{FIRST_NAME} token used (Email Bison)",
+        "{SENDER_EMAIL_SIGNATURE} present after sign-off",
+        "No em dashes or en dashes",
+        "Tone matches executive audience — no overly casual language, no slang",
+        "The $18M Series B case study is featured in social proof",
+        "High-ticket price ($8K-15K/mo) is NOT mentioned in the email copy (price belongs on call, not in cold email)",
+        "E1 CTA is permission-based (not asking for calendar commitment)",
+        "No spam trigger words",
+        "Subject lines sound internal/colleague-like, not promotional",
+        "First name is the ONLY personalization variable",
+        "E1 subject line and first line do NOT telegraph 'this is a cold email' (no research-flex opener); they read as internal/colleague-like and provoke curiosity",
+        "E1 CTA gives the fix or offers value answerable with a simple 'yes' — NOT 'let me share what we do'",
+        "Email bodies are broken into short lines with white space, not one solid block of text"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "edge-case-bare-minimum-prompt",
+      "prompt": "Write cold emails for my business.",
+      "expected_output": "The skill should NOT write a full sequence with made-up details. It should ask for the minimum context it needs.",
+      "expectations": [
+        "Does NOT generate a full email sequence with fabricated details",
+        "Asks about the target audience (title, industry, company size)",
+        "Asks about the offer (what the business does)",
+        "Asks about tone preference",
+        "Asks about CTA strategy (book a call vs lead magnet)",
+        "Asks which sequencer (Email Bison or Instantly)",
+        "Mentions that having a strategy file from the strategy skill would be helpful",
+        "Does not overwhelm with too many questions at once"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "rlm-cta-with-strategy-context",
+      "prompt": "Write a cold email sequence for Consulti AI, a cold email automation platform.\n\nStrategy context:\n- ICP: Agency founders, staffing firm owners, MSP owners, 5-50 employees, US\n- Pain points: Feast-or-famine client cycle, spending hours writing outreach emails by hand, inconsistent pipeline\n- Offer: AI-powered cold email platform, $97/mo starter, AI writes sequences from website URL, 15M+ verified leads delivered daily\n- Value lever: Save time + Make money\n- Case study: 2,500+ agencies on platform, top users seeing 5.4% reply rates (3x industry average)\n- Messaging angles: Pain Dagger (feast/famine), RLM Sequences (ran their website through AI), RLM Leads (pulled verified leads)\n- Tone: 2/5 formality, confident, direct, helpful\n- CTA strategy: Lead magnet (reverse lead magnet — offer AI-generated sequences or verified leads)\n- Front-end offer: AI-generated email sequences specific to their business\n- Sequencer: Email Bison\n- Sender: Jay Feldman, Founder\n- Campaign name: consulti-agencies",
+      "expected_output": "4-email sequence with RLM-style CTAs that offer to send something rather than book a call",
+      "expectations": [
+        "Exactly 4 emails produced",
+        "Every email body under 100 words",
+        "Email Bison spintax format: {option1|option2|option3}",
+        "{FIRST_NAME} and {SENDER_EMAIL_SIGNATURE} tokens present",
+        "No em dashes or en dashes",
+        "E1 CTA is a reverse lead magnet offer (offers to send sequences/leads, NOT asks for a call)",
+        "RLM angle present: references running their website through AI or pulling leads for them",
+        "No links in Email 1",
+        "Pricing ($97/mo) is NOT in E1 body (save for later emails or call)",
+        "Social proof (2,500+ agencies, 5.4% reply rate) woven into at least one email",
+        "E3 pivots to a genuinely different angle than E1",
+        "No spam trigger words",
+        "First name is the ONLY personalization variable",
+        "Day offsets specified",
+        "E1 subject line and first line do NOT telegraph 'this is a cold email'; they read as internal/vendor/friendly and provoke curiosity",
+        "E1 CTA gives the fix or offers value answerable with a simple 'yes' — NOT 'let me share what we do'",
+        "Email bodies are broken into short lines with white space, not one solid block of text"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "diagnostic-fix-tight-icp",
+      "prompt": "Write a cold email sequence for PixelProof, a conversion-tracking agency that fixes broken server-side / CAPI tracking so ecommerce and lead-gen businesses can see their real offline conversions.\n\nStrategy context:\n- ICP: Ecommerce and lead-gen business OWNERS/FOUNDERS/CEOs ONLY, 20-30 employees MAX (tight ICP — these founders don't know how to configure tracking themselves)\n- Pain points: Website not firing offline conversions, CAPI/server-side tracking misconfigured, ad spend attribution invisible, don't have someone in-house who can fix it\n- Offer: Done-for-you server-side tracking fix (usually a 1-hour setup)\n- Value lever: Fix a broken thing they can't fix themselves\n- Case study: none provided (do NOT fabricate one)\n- Tone: 2/5 formality, helpful, sounds like a vendor or a technical friend who spotted a problem\n- CTA strategy: Give the fix (offer to fix it, not to explain their process)\n- Sequencer: Email Bison\n- Sender: Dor Shiff, Founder\n- Campaign name: pixelproof-founders",
+      "expected_output": "4-email sequence whose subjects and first lines read like a vendor/colleague flagging a problem, with a give-the-fix CTA, no fabricated social proof",
+      "expectations": [
+        "Exactly 4 emails produced (E1-E4)",
+        "Every email body under 100 words",
+        "Email Bison spintax format: {option1|option2|option3}",
+        "{FIRST_NAME} and {SENDER_EMAIL_SIGNATURE} tokens present",
+        "No em dashes or en dashes anywhere",
+        "E1 subject sounds like a vendor/colleague flagging a problem (e.g. 'Found a pixel issue', 'Who set up your tracking?', 'Tracking glitch found') — NOT a pitch or research flex",
+        "E1 first line provokes curiosity or states a diagnostic concern (e.g. 'I don't think your server-side tracking is set up correctly' / 'Did you know your website isn't firing any offline conversions?')",
+        "E1 CTA offers to GIVE/SHARE the fix, answerable with a simple 'yes' (e.g. 'Can I share a quick fix for your offline tracking?') — NOT 'let me tell you what we do'",
+        "No social proof is fabricated (no invented client names, metrics, or case studies)",
+        "Email bodies are short lines with white space, not one block of text",
+        "First name is the ONLY personalization variable",
+        "No spam trigger words",
+        "Day offsets specified"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "no-hook-personality-fallback",
+      "prompt": "Write a cold email sequence for Austin Warner, an independent insurance broker who wants to be the go-to 'insurance guy' for local business owners. There is no lead magnet, no unique mechanism, and no social proof to use.\n\nStrategy context:\n- ICP: Local business owners (trades, manufacturing, service businesses), owner/founder only\n- Offer: Reliable, friendly independent insurance help (workers comp, group health, general business insurance)\n- Value lever: Be their trusted 'guy' — relationship play\n- Case study: NONE. No social proof exists. Do NOT invent any.\n- Tone: 1-2/5 formality, very casual, warm, friendly, handshake-style\n- CTA strategy: ultra-low friction — offer to send his cell number for future use\n- Sequencer: Email Bison\n- Sender: Austin Warner\n- Campaign name: austin-insurance",
+      "expected_output": "4-email sequence using the no-hook personality fallback: short, personal, warm, handshake tone, low-friction CTA, PS de-risk, and NO fabricated social proof",
+      "expectations": [
+        "Exactly 4 emails produced (E1-E4)",
+        "Every email body under 100 words",
+        "Email Bison spintax format: {option1|option2|option3}",
+        "{FIRST_NAME} and {SENDER_EMAIL_SIGNATURE} tokens present",
+        "No em dashes or en dashes anywhere",
+        "Uses the no-hook personality fallback: warm/personal/handshake tone, reads like a note from a friend, NOT a proof-driven pitch",
+        "E1 subject is personal/familiar (e.g. 'NAME, it's Austin', 'Do you have an insurance guy?') — NOT a promotional or research-flex subject",
+        "E1 first line is warm/familiar (e.g. 'What's up NAME! Long time no see.' / 'Hope all's well, my friend.')",
+        "Includes an honest reveal that they haven't met (does not pretend to be an existing friend in the body)",
+        "NO social proof is fabricated — no invented clients, metrics, or case studies",
+        "E1 CTA is ultra-low friction and answerable with a simple 'yes' (e.g. 'Mind if I send my cell in case you ever need me?')",
+        "A PS line de-risks (e.g. 'PS: if you already have someone you love and trust, no worries')",
+        "Email bodies are short lines with white space, not one block of text",
+        "First name is the ONLY personalization variable",
+        "No spam trigger words",
+        "Day offsets specified"
+      ]
+    }
+  ]
+}

@@ -13,11 +13,15 @@ Always deliver the output in this order:
 
 PART 1 - Action Items by Person (internal)
 
-A per-person breakdown of who committed to what. This is for the internal team, not sent to the client. List every attendee who has a task, each under their own plain text name header, with their tasks as bullets. Only include people who actually have action items. Apply the same Golden Rule here: only list tasks explicitly committed to in the transcript.
+A per-person breakdown of who committed to what. This is for the internal team, not sent to the client. Give action items for EVERYONE on the call who committed to a task - list every such attendee, each under their own plain text name header, with their tasks as bullets. Do not collapse it to a single person; if three people committed to things, all three get a header. Only include people who actually have action items. Apply the same Golden Rule here: only list tasks explicitly committed to in the transcript.
+
+Make PART 1 detailed. This is the internal team's working list, so each task bullet should carry enough context to act on it without re-reading the transcript: the specific problem being solved, the reasoning or rationale behind the task, any concrete examples mentioned, and the deadline if one was given. Terse one-liners are not enough here. Detail lives in PART 1, brevity lives in PART 2.
 
 PART 2 - Client Recap Email
 
 The client-facing recap email, following the Message Structure below. This is the part that gets sent to the client.
+
+Keep PART 2 the most concise part of the output. Tight sections, minimal bullets, forward-looking language. Strip anything the client does not strictly need to read. When in doubt, cut it. The internal detail belongs in PART 1, not here.
 
 Separate the two parts clearly with a divider line (---) so the user can see where the internal breakdown ends and the sendable email begins.
 
@@ -109,6 +113,17 @@ If you are unsure whether the meeting is a strategy call, ask the user before de
 5. Focus on what's happening next rather than what was talked about. Use forward-looking language ("We'll do X" rather than "We discussed X"). The exception is when framing context is needed for the next steps to make sense, in which case keep it brief.
 6. Fold any asks for the client into the optional closing invitation line rather than creating a separate requests section.
 7. Review both parts and remove anything that cannot be traced to a specific moment in the transcript.
+
+## After Drafting: Always Save and Push
+
+Once the recap is drafted and shown in chat, always persist it. Do not stop at the chat message.
+
+1. Identify the client repo (the working directory when it is that client's repo) and the client's Google Drive folder (search Drive for the client name + "folder").
+2. Save the transcript and the full recap (PART 1 + PART 2) to the client repo as a markdown file, named to match the repo's existing convention (e.g. "<Meeting Type> Transcript x <Client Name> - <Month Day>.md").
+3. Save the same content to the client's Google Drive folder as a Google Doc.
+4. Then git commit and push the client repo with a clear message describing the recap that was added.
+
+This save-and-push step is mandatory, not optional. Do it every time unless the user explicitly says not to.
 
 ## Tone
 

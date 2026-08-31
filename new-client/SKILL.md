@@ -1,11 +1,11 @@
 ---
 name: new-client
-description: "End-to-end NEW CLIENT onboarding processor for LGJ. Pulls a strategy/onboarding call transcript from Fathom, saves it to the client's Google Drive folder as a Google Doc and to the client repo as markdown, saves the intake form as markdown, analyzes the transcript to deploy per-member tasks, delivers the action items and meeting recap directly in chat, and drafts a client-facing recap email as a Gmail draft. Use when someone says 'onboard [client]', 'new client [name]', 'process the [client] onboarding call', 'pull the transcript and deploy tasks', or sets up a brand-new client from a Fathom recording. For an ongoing/recurring meeting that only needs transcript saved + a recap in chat (no intake, no tasks), use the 'client-meeting' skill instead."
+description: "End-to-end NEW CLIENT onboarding processor for LGJ. Pulls a strategy/onboarding call transcript from Fathom, saves it to the client's Google Drive folder as a Google Doc and to the client repo as markdown, saves the intake form as markdown, analyzes the transcript to deploy per-member tasks, and delivers the action items, meeting recap, and client-facing recap email directly in chat. Use when someone says 'onboard [client]', 'new client [name]', 'process the [client] onboarding call', 'pull the transcript and deploy tasks', or sets up a brand-new client from a Fathom recording. For an ongoing/recurring meeting that only needs transcript saved + a recap in chat (no intake, no tasks), use the 'client-meeting' skill instead."
 ---
 
 # New Client
 
-Run the full post-call workflow for a client: **transcript → Drive Doc + repo .md → intake .md → per-member tasks → action items + recap delivered in chat → client-facing recap email drafted in Gmail.**
+Run the full post-call workflow for a client: **transcript → Drive Doc + repo .md → intake .md → per-member tasks → action items + recap + client-facing recap email all delivered in chat.**
 
 ## Golden rules (do not violate)
 
@@ -17,6 +17,8 @@ Run the full post-call workflow for a client: **transcript → Drive Doc + repo 
    - `<Client Name> - Intake Form.md`
    - **Action items and the meeting recap are NOT saved as local `.md` files — they are delivered directly in the chat** (see steps 5–6).
 4. **Quote your evidence.** Each action item and recap line carries the transcript timestamp/quote it came from.
+5. **Never create a Gmail draft.** Every client-facing email is delivered in the chat as a copyable code block. The user copies it into Gmail themselves. Do not call `create_draft`, `create_email_draft`, or any send tool.
+6. **Never use em dashes.** No `—` and no `–` anywhere in client-facing copy or in the chat recap and action items. Use a period, a comma, a colon, or parentheses instead.
 
 ## Inputs to confirm first
 - **Client name** (e.g. "David Dewey").
@@ -83,8 +85,8 @@ Convert relative dates from the call ("starting tomorrow") to absolute using the
 ## Step 6 — Deliver the meeting recap in chat
 **Write the meeting recap directly in the chat — do NOT save it as a local `.md` file.** Build it from the transcript + Fathom `default_summary`: purpose, the offer in the client's words, agreed campaign angles, infrastructure plan, commercials/notes, and a "Next Steps" section (the action items from step 5). Every line must trace to the transcript. Add the disclaimer: *"Generated from the Fathom transcript on <date>. Verified-source only."*
 
-## Step 7 — Draft the client-facing recap email (Gmail draft)
-Turn the recap into a warm, **client-facing** email and save it as a **Gmail draft** — **never send it.** Sending is outward-facing; the human reviews and sends.
+## Step 7 — Deliver the client-facing recap email in chat
+Turn the recap into a warm, **client-facing** email and output it in the chat inside a copyable code block. **Do not create a Gmail draft and do not send anything.** The user copies the text into Gmail and sends it themselves.
 
 This email is NOT the internal chat recap. Rewrite it for the client:
 - **To:** the client's communication email (from the intake form / `calendar_invitees` — confirm which address they said to use). **From:** the CSM.
@@ -92,24 +94,26 @@ This email is NOT the internal chat recap. Rewrite it for the client:
 - **Greeting** by first name, one warm line thanking them for the call.
 - **"Here's what we aligned on"** — 3–6 short bullets in plain language: the offer/positioning, the ICP & angles, the infrastructure plan, and any commercials that were stated. Client-facing tone — **no internal timestamps, no per-member task assignments, no internal jargon.**
 - **"What happens next"** — what LGJ is doing now (framed as "we'll…"), and a short **"What we need from you"** list (only the client's own action items from step 5).
-- Friendly sign-off from the CSM. Keep it tight — this is a confidence-builder, not a report.
+- Friendly sign-off from the CSM. Keep it tight. This is a confidence-builder, not a report.
+- **No em dashes.** Write around them.
 
 Still obey rule 1: every claim traces to the transcript — do not promise numbers, timelines, or deliverables that weren't stated on the call.
 
-```
-mcp__claude_ai_bridgekit__create_email_draft(
-  to="<client email>",
-  subject="<subject>",
-  body="<client-facing recap>"
-)
-```
-If bridgekit's draft tool isn't available, use `mcp__claude_ai_Gmail__create_draft`. **Confirm the recipient address with the user if there's any ambiguity** (clients often have multiple emails — see Charles's `cpesince66@` vs `cpe666@`). Paste the drafted email into chat too so the user can review before sending.
+Output it like this, with the recipient and subject stated above the block so the user can copy the body straight out:
+
+> **To:** `<client email>` · **Subject:** `<subject>`
+>
+> ```
+> <client-facing recap email>
+> ```
+
+**Confirm the recipient address with the user if there's any ambiguity** (clients often have multiple emails, e.g. Charles's `cpesince66@` vs `cpe666@`).
 
 ## Step 8 — Report
-Summarize to the user: links to the Drive Doc, the repo files written (transcript + intake form), the count of tasks deployed per member, the Gmail draft created (step 7, unsent), and anything that couldn't be pulled (rule 2). The action items and recap themselves are delivered inline in chat (steps 5–6), not as files.
+Summarize to the user: links to the Drive Doc, the repo files written (transcript + intake form), the count of tasks deployed per member, and anything that couldn't be pulled (rule 2). The action items, the recap, and the client-facing email are all delivered inline in chat (steps 5-7), not as files and not as Gmail drafts.
 
 ## Tools used
 - Fathom: REST API via `curl` (key above) — bridgekit Fathom tools if/when connected.
 - Drive/Docs: `search_drive_files`, `create_file` (Google_Drive), `read_google_doc`, `move_drive_file`, `trash_drive_file`, `rename_drive_file`.
-- Email: `create_email_draft` (bridgekit) or `create_draft` (Gmail) — **draft only, never send.**
+- Email: **none.** Client-facing email is delivered in chat as a code block. Never call a draft or send tool.
 - Repo: Read/Write/Edit + Bash (python for tasks.json).

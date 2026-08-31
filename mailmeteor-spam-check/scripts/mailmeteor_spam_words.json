@@ -1,0 +1,4616 @@
+[
+ {
+  "pattern": "\\baccess\\b",
+  "flags": "gi",
+  "keyword": "Access",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\baccess now\\b",
+  "flags": "gi",
+  "keyword": "Access now",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bact\\b",
+  "flags": "gi",
+  "keyword": "Act",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bact immediately\\b",
+  "flags": "gi",
+  "keyword": "Act immediately",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bact now\\b",
+  "flags": "gi",
+  "keyword": "Act now",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bact now!\\b",
+  "flags": "gi",
+  "keyword": "Act now!",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\baction\\b",
+  "flags": "gi",
+  "keyword": "Action",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\baction required\\b",
+  "flags": "gi",
+  "keyword": "Action required",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bapply here\\b",
+  "flags": "gi",
+  "keyword": "Apply here",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bapply now\\b",
+  "flags": "gi",
+  "keyword": "Apply now",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bapply now!\\b",
+  "flags": "gi",
+  "keyword": "Apply now!",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bapply online\\b",
+  "flags": "gi",
+  "keyword": "Apply online",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\basap\\b",
+  "flags": "gi",
+  "keyword": "ASAP",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bbecome a member\\b",
+  "flags": "gi",
+  "keyword": "Become a member",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bbefore it's too late\\b",
+  "flags": "gi",
+  "keyword": "Before it's too late",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bbeing a member\\b",
+  "flags": "gi",
+  "keyword": "Being a member",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bbuy\\b",
+  "flags": "gi",
+  "keyword": "Buy",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bbuy direct\\b",
+  "flags": "gi",
+  "keyword": "Buy direct",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bbuy now\\b",
+  "flags": "gi",
+  "keyword": "Buy now",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bbuy today\\b",
+  "flags": "gi",
+  "keyword": "Buy today",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bcall\\b",
+  "flags": "gi",
+  "keyword": "Call",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bcall free\\b",
+  "flags": "gi",
+  "keyword": "Call free",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bcall (free|now)\\b",
+  "flags": "gi",
+  "keyword": "Call free/now",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bcall me\\b",
+  "flags": "gi",
+  "keyword": "Call me",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bcall now\\b",
+  "flags": "gi",
+  "keyword": "Call now",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bcall now!\\b",
+  "flags": "gi",
+  "keyword": "Call now!",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bcan we have a minute of your time\\?\\b",
+  "flags": "gi",
+  "keyword": "Can we have a minute of your time?",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bcancel now\\b",
+  "flags": "gi",
+  "keyword": "Cancel now",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bcancellation required\\b",
+  "flags": "gi",
+  "keyword": "Cancellation required",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bclaim now\\b",
+  "flags": "gi",
+  "keyword": "Claim now",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bclick\\b",
+  "flags": "gi",
+  "keyword": "Click",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bclick below\\b",
+  "flags": "gi",
+  "keyword": "Click below",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bclick here\\b",
+  "flags": "gi",
+  "keyword": "Click here",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bclick me to download\\b",
+  "flags": "gi",
+  "keyword": "Click me to download",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bclick now\\b",
+  "flags": "gi",
+  "keyword": "Click now",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bclick this link\\b",
+  "flags": "gi",
+  "keyword": "Click this link",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bclick to get\\b",
+  "flags": "gi",
+  "keyword": "Click to get",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bclick to remove\\b",
+  "flags": "gi",
+  "keyword": "Click to remove",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bcontact us immediately\\b",
+  "flags": "gi",
+  "keyword": "Contact us immediately",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bdeal ending soon\\b",
+  "flags": "gi",
+  "keyword": "Deal ending soon",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bdo it now\\b",
+  "flags": "gi",
+  "keyword": "Do it now",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bdo it today\\b",
+  "flags": "gi",
+  "keyword": "Do it today",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bdon't delete\\b",
+  "flags": "gi",
+  "keyword": "Don't delete",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bdon't hesitate\\b",
+  "flags": "gi",
+  "keyword": "Don't hesitate",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bdon't waste time\\b",
+  "flags": "gi",
+  "keyword": "Don't waste time",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bdon’t delete\\b",
+  "flags": "gi",
+  "keyword": "Don’t delete",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bexclusive deal\\b",
+  "flags": "gi",
+  "keyword": "Exclusive deal",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bexpire\\b",
+  "flags": "gi",
+  "keyword": "Expire",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bexpires today\\b",
+  "flags": "gi",
+  "keyword": "Expires today",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bfinal call\\b",
+  "flags": "gi",
+  "keyword": "Final call",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bfor instant access\\b",
+  "flags": "gi",
+  "keyword": "For instant access",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bfor only\\b",
+  "flags": "gi",
+  "keyword": "For Only",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bfor you\\b",
+  "flags": "gi",
+  "keyword": "For you",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bfriday before [holiday]\\b",
+  "flags": "gi",
+  "keyword": "Friday before [holiday]",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bget it away\\b",
+  "flags": "gi",
+  "keyword": "Get it away",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bget it now\\b",
+  "flags": "gi",
+  "keyword": "Get it now",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bget now\\b",
+  "flags": "gi",
+  "keyword": "Get now",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bget paid\\b",
+  "flags": "gi",
+  "keyword": "Get paid",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bget started\\b",
+  "flags": "gi",
+  "keyword": "Get started",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bget started now\\b",
+  "flags": "gi",
+  "keyword": "Get started now",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bgreat offer\\b",
+  "flags": "gi",
+  "keyword": "Great offer",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bhurry up\\b",
+  "flags": "gi",
+  "keyword": "Hurry up",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bimmediately\\b",
+  "flags": "gi",
+  "keyword": "Immediately",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\binfo you requested\\b",
+  "flags": "gi",
+  "keyword": "Info you requested",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\binformation you requested\\b",
+  "flags": "gi",
+  "keyword": "Information you requested",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\binstant\\b",
+  "flags": "gi",
+  "keyword": "Instant",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\blimited time\\b",
+  "flags": "gi",
+  "keyword": "Limited time",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bnew customers only\\b",
+  "flags": "gi",
+  "keyword": "New customers only",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bnow\\b",
+  "flags": "gi",
+  "keyword": "Now",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bnow only\\b",
+  "flags": "gi",
+  "keyword": "Now only",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\boffer expires\\b",
+  "flags": "gi",
+  "keyword": "Offer expires",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bonce in lifetime\\b",
+  "flags": "gi",
+  "keyword": "Once in lifetime",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bonly\\b",
+  "flags": "gi",
+  "keyword": "Only",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\border now\\b",
+  "flags": "gi",
+  "keyword": "Order now",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\border today\\b",
+  "flags": "gi",
+  "keyword": "Order today",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bplease read\\b",
+  "flags": "gi",
+  "keyword": "Please read",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bpurchase now\\b",
+  "flags": "gi",
+  "keyword": "Purchase now",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bsign up free\\b",
+  "flags": "gi",
+  "keyword": "Sign up free",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bsign up free today\\b",
+  "flags": "gi",
+  "keyword": "Sign up free today",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bsupplies are limited\\b",
+  "flags": "gi",
+  "keyword": "Supplies are limited",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\btake action\\b",
+  "flags": "gi",
+  "keyword": "Take action",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\btake action now\\b",
+  "flags": "gi",
+  "keyword": "Take action now",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bthis won’t last\\b",
+  "flags": "gi",
+  "keyword": "This won’t last",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\btime limited\\b",
+  "flags": "gi",
+  "keyword": "Time limited",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\btoday\\b",
+  "flags": "gi",
+  "keyword": "Today",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\btop urgent\\b",
+  "flags": "gi",
+  "keyword": "Top urgent",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\btrial\\b",
+  "flags": "gi",
+  "keyword": "Trial",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\burgent\\b",
+  "flags": "gi",
+  "keyword": "Urgent",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bwhat are you waiting for\\?\\b",
+  "flags": "gi",
+  "keyword": "What are you waiting for?",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\bwhile supplies last\\b",
+  "flags": "gi",
+  "keyword": "While supplies last",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\byou are a winner\\b",
+  "flags": "gi",
+  "keyword": "You are a winner",
+  "category": "urgency"
+ },
+ {
+  "pattern": "\\b0 down\\b",
+  "flags": "gi",
+  "keyword": "0 down",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\ball\\b",
+  "flags": "gi",
+  "keyword": "All",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\ball natural\\b",
+  "flags": "gi",
+  "keyword": "All natural",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\ball (natural|new)\\b",
+  "flags": "gi",
+  "keyword": "All natural/new",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\ball new\\b",
+  "flags": "gi",
+  "keyword": "All new",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\ball-natural\\b",
+  "flags": "gi",
+  "keyword": "All-natural",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\ball-new\\b",
+  "flags": "gi",
+  "keyword": "All-new",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\ballowance\\b",
+  "flags": "gi",
+  "keyword": "Allowance",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bas seen on\\b",
+  "flags": "gi",
+  "keyword": "As seen on",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bas seen on oprah\\b",
+  "flags": "gi",
+  "keyword": "As seen on Oprah",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bat no cost\\b",
+  "flags": "gi",
+  "keyword": "At no cost",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bauto email removal\\b",
+  "flags": "gi",
+  "keyword": "Auto email removal",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bavoice bankruptcy\\b",
+  "flags": "gi",
+  "keyword": "Avoice bankruptcy",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bavoid\\b",
+  "flags": "gi",
+  "keyword": "Avoid",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bbeneficial offer\\b",
+  "flags": "gi",
+  "keyword": "Beneficial offer",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bbeneficiary\\b",
+  "flags": "gi",
+  "keyword": "Beneficiary",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bbill 1618\\b",
+  "flags": "gi",
+  "keyword": "Bill 1618",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bbrand new pager\\b",
+  "flags": "gi",
+  "keyword": "Brand new pager",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bbulk email\\b",
+  "flags": "gi",
+  "keyword": "Bulk email",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bbuying judgements\\b",
+  "flags": "gi",
+  "keyword": "Buying judgements",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bbuying judgments\\b",
+  "flags": "gi",
+  "keyword": "Buying judgments",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bcable converter\\b",
+  "flags": "gi",
+  "keyword": "Cable converter",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bcalling creditors\\b",
+  "flags": "gi",
+  "keyword": "Calling creditors",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bcan you help us\\?\\b",
+  "flags": "gi",
+  "keyword": "Can you help us?",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bcancel at any time\\b",
+  "flags": "gi",
+  "keyword": "Cancel at any time",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bcannot be combined\\b",
+  "flags": "gi",
+  "keyword": "Cannot be combined",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bcelebrity\\b",
+  "flags": "gi",
+  "keyword": "Celebrity",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bcell phone cancer scam\\b",
+  "flags": "gi",
+  "keyword": "Cell phone cancer scam",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bcertified\\b",
+  "flags": "gi",
+  "keyword": "Certified",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bchance\\b",
+  "flags": "gi",
+  "keyword": "Chance",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bcheap\\b",
+  "flags": "gi",
+  "keyword": "Cheap",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bcheap meds\\b",
+  "flags": "gi",
+  "keyword": "Cheap meds",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bcialis\\b",
+  "flags": "gi",
+  "keyword": "Cialis",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bclaims\\b",
+  "flags": "gi",
+  "keyword": "Claims",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bclaims not to be selling anything\\b",
+  "flags": "gi",
+  "keyword": "Claims not to be selling anything",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bclaims to be in accordance with some spam law\\b",
+  "flags": "gi",
+  "keyword": "Claims to be in accordance with some spam law",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bclaims to be legal\\b",
+  "flags": "gi",
+  "keyword": "Claims to be legal",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bclearance\\b",
+  "flags": "gi",
+  "keyword": "Clearance",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bcollect\\b",
+  "flags": "gi",
+  "keyword": "Collect",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bcollect child support\\b",
+  "flags": "gi",
+  "keyword": "Collect child support",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bcompare\\b",
+  "flags": "gi",
+  "keyword": "Compare",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bcompare now\\b",
+  "flags": "gi",
+  "keyword": "Compare now",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bcompare online\\b",
+  "flags": "gi",
+  "keyword": "Compare online",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bcompare rates\\b",
+  "flags": "gi",
+  "keyword": "Compare rates",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bcompete for your business\\b",
+  "flags": "gi",
+  "keyword": "Compete for your business",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bconfidentiality\\b",
+  "flags": "gi",
+  "keyword": "Confidentiality",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bcongratulations\\b",
+  "flags": "gi",
+  "keyword": "Congratulations",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bconsolidate debt and credit\\b",
+  "flags": "gi",
+  "keyword": "Consolidate debt and credit",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bconsolidate your debt\\b",
+  "flags": "gi",
+  "keyword": "Consolidate your debt",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bcopy accurately\\b",
+  "flags": "gi",
+  "keyword": "Copy accurately",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bcopy dvds\\b",
+  "flags": "gi",
+  "keyword": "Copy DVDs",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bcovid\\b",
+  "flags": "gi",
+  "keyword": "COVID",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bcures\\b",
+  "flags": "gi",
+  "keyword": "Cures",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bcures baldness\\b",
+  "flags": "gi",
+  "keyword": "Cures baldness",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bdiagnostic\\b",
+  "flags": "gi",
+  "keyword": "Diagnostic",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bdiagnostics\\b",
+  "flags": "gi",
+  "keyword": "DIAGNOSTICS",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bdiet\\b",
+  "flags": "gi",
+  "keyword": "Diet",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bdig up dirt on friends\\b",
+  "flags": "gi",
+  "keyword": "Dig up dirt on friends",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bdirect email\\b",
+  "flags": "gi",
+  "keyword": "Direct email",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bdirect marketing\\b",
+  "flags": "gi",
+  "keyword": "Direct marketing",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\beliminate debt\\b",
+  "flags": "gi",
+  "keyword": "Eliminate debt",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bexplode your business\\b",
+  "flags": "gi",
+  "keyword": "Explode your business",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bfast viagra delivery\\b",
+  "flags": "gi",
+  "keyword": "Fast viagra delivery",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bfinance\\b",
+  "flags": "gi",
+  "keyword": "Finance",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bfinancial\\b",
+  "flags": "gi",
+  "keyword": "Financial",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bfinancial advice\\b",
+  "flags": "gi",
+  "keyword": "Financial advice",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bfinancial independence\\b",
+  "flags": "gi",
+  "keyword": "Financial independence",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bfinancially independent\\b",
+  "flags": "gi",
+  "keyword": "Financially independent",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bfor new customers only\\b",
+  "flags": "gi",
+  "keyword": "For new customers only",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bforeclosure\\b",
+  "flags": "gi",
+  "keyword": "Foreclosure",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bfree\\b",
+  "flags": "gi",
+  "keyword": "Free",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bfree (access|money|gift)\\b",
+  "flags": "gi",
+  "keyword": "Free access/money/gift",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bfree bonus\\b",
+  "flags": "gi",
+  "keyword": "Free bonus",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bfree cell phone\\b",
+  "flags": "gi",
+  "keyword": "Free cell phone",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bfree dvd\\b",
+  "flags": "gi",
+  "keyword": "Free DVD",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bfree grant money\\b",
+  "flags": "gi",
+  "keyword": "Free grant money",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bfree information\\b",
+  "flags": "gi",
+  "keyword": "Free information",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bfree installation\\b",
+  "flags": "gi",
+  "keyword": "Free installation",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bfree instant\\b",
+  "flags": "gi",
+  "keyword": "Free Instant",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bfree iphone\\b",
+  "flags": "gi",
+  "keyword": "Free iPhone",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bfree laptop\\b",
+  "flags": "gi",
+  "keyword": "Free laptop",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bfree leads\\b",
+  "flags": "gi",
+  "keyword": "Free leads",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bfree macbook\\b",
+  "flags": "gi",
+  "keyword": "Free Macbook",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bfree offer\\b",
+  "flags": "gi",
+  "keyword": "Free offer",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bfree priority mail\\b",
+  "flags": "gi",
+  "keyword": "Free priority mail",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bfree sample\\b",
+  "flags": "gi",
+  "keyword": "Free sample",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bfree website\\b",
+  "flags": "gi",
+  "keyword": "Free website",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bfree!\\b",
+  "flags": "gi",
+  "keyword": "Free!",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bget\\b",
+  "flags": "gi",
+  "keyword": "Get",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bgift card\\b",
+  "flags": "gi",
+  "keyword": "Gift card",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bgift certificate\\b",
+  "flags": "gi",
+  "keyword": "Gift certificate",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bgift included\\b",
+  "flags": "gi",
+  "keyword": "Gift included",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bgive it away\\b",
+  "flags": "gi",
+  "keyword": "Give it away",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bgiving away\\b",
+  "flags": "gi",
+  "keyword": "Giving away",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bgiving it away\\b",
+  "flags": "gi",
+  "keyword": "Giving it away",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bgold\\b",
+  "flags": "gi",
+  "keyword": "Gold",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bgreat\\b",
+  "flags": "gi",
+  "keyword": "Great",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bgreat deal\\b",
+  "flags": "gi",
+  "keyword": "Great deal",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bgreetings of the day\\b",
+  "flags": "gi",
+  "keyword": "Greetings of the day",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bgrowth hormone\\b",
+  "flags": "gi",
+  "keyword": "Growth hormone",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bguarantee\\b",
+  "flags": "gi",
+  "keyword": "Guarantee",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bguaranteed deposit\\b",
+  "flags": "gi",
+  "keyword": "Guaranteed deposit",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bguaranteed income\\b",
+  "flags": "gi",
+  "keyword": "Guaranteed income",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bguaranteed payment\\b",
+  "flags": "gi",
+  "keyword": "Guaranteed payment",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bhave you been turned down\\?\\b",
+  "flags": "gi",
+  "keyword": "Have you been turned down?",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bhello (with no name included)\\b",
+  "flags": "gi",
+  "keyword": "Hello (with no name included)",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bhidden charges\\b",
+  "flags": "gi",
+  "keyword": "Hidden charges",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bhidden costs\\b",
+  "flags": "gi",
+  "keyword": "Hidden costs",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bhidden fees\\b",
+  "flags": "gi",
+  "keyword": "Hidden fees",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bhigh score\\b",
+  "flags": "gi",
+  "keyword": "High score",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bhome based business\\b",
+  "flags": "gi",
+  "keyword": "Home based business",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bhome mortgage\\b",
+  "flags": "gi",
+  "keyword": "Home mortgage",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bhuman\\b",
+  "flags": "gi",
+  "keyword": "Human",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bhuman growth hormone\\b",
+  "flags": "gi",
+  "keyword": "Human growth hormone",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bif only it were that easy\\b",
+  "flags": "gi",
+  "keyword": "If only it were that easy",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bimportant information\\b",
+  "flags": "gi",
+  "keyword": "Important information",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bimportant notification\\b",
+  "flags": "gi",
+  "keyword": "Important notification",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\binstant weight loss\\b",
+  "flags": "gi",
+  "keyword": "Instant weight loss",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\binsurance lose weight\\b",
+  "flags": "gi",
+  "keyword": "Insurance Lose weight",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\binternet marketing\\b",
+  "flags": "gi",
+  "keyword": "Internet marketing",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\binvestment decision\\b",
+  "flags": "gi",
+  "keyword": "Investment decision",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\binvoice\\b",
+  "flags": "gi",
+  "keyword": "Invoice",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bit’s effective\\b",
+  "flags": "gi",
+  "keyword": "It’s effective",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bjob alert\\b",
+  "flags": "gi",
+  "keyword": "Job alert",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bjunk\\b",
+  "flags": "gi",
+  "keyword": "Junk",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\blambo\\b",
+  "flags": "gi",
+  "keyword": "Lambo",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\blaser printer\\b",
+  "flags": "gi",
+  "keyword": "Laser printer",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\blast day\\b",
+  "flags": "gi",
+  "keyword": "Last Day",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\blegal\\b",
+  "flags": "gi",
+  "keyword": "Legal",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\blegal notice\\b",
+  "flags": "gi",
+  "keyword": "Legal notice",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\blife\\b",
+  "flags": "gi",
+  "keyword": "Life",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\blife insurance\\b",
+  "flags": "gi",
+  "keyword": "Life insurance",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\blifetime access\\b",
+  "flags": "gi",
+  "keyword": "Lifetime access",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\blifetime deal\\b",
+  "flags": "gi",
+  "keyword": "Lifetime deal",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\blimited\\b",
+  "flags": "gi",
+  "keyword": "Limited",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\blimited amount\\b",
+  "flags": "gi",
+  "keyword": "Limited amount",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\blimited number\\b",
+  "flags": "gi",
+  "keyword": "Limited number",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\blimited offer\\b",
+  "flags": "gi",
+  "keyword": "Limited offer",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\blimited supply\\b",
+  "flags": "gi",
+  "keyword": "Limited supply",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\blimited time offer\\b",
+  "flags": "gi",
+  "keyword": "Limited time offer",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\blimited time only\\b",
+  "flags": "gi",
+  "keyword": "Limited time only",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bloan\\b",
+  "flags": "gi",
+  "keyword": "Loan",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\blong distance phone number\\b",
+  "flags": "gi",
+  "keyword": "Long distance phone number",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\blong distance phone offer\\b",
+  "flags": "gi",
+  "keyword": "Long distance phone offer",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\blose weight\\b",
+  "flags": "gi",
+  "keyword": "Lose weight",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\blose weight fast\\b",
+  "flags": "gi",
+  "keyword": "Lose weight fast",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\blose weight spam\\b",
+  "flags": "gi",
+  "keyword": "Lose weight spam",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\blottery\\b",
+  "flags": "gi",
+  "keyword": "Lottery",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\blower interest rate\\b",
+  "flags": "gi",
+  "keyword": "Lower interest rate",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\blower interest rates\\b",
+  "flags": "gi",
+  "keyword": "Lower interest rates",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\blower monthly payment\\b",
+  "flags": "gi",
+  "keyword": "Lower monthly payment",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\blower your mortgage rate\\b",
+  "flags": "gi",
+  "keyword": "Lower your mortgage rate",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\blowest insurance rates\\b",
+  "flags": "gi",
+  "keyword": "Lowest insurance rates",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\blowest interest rate\\b",
+  "flags": "gi",
+  "keyword": "Lowest interest rate",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\blowest rate\\b",
+  "flags": "gi",
+  "keyword": "Lowest rate",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\blowest rates\\b",
+  "flags": "gi",
+  "keyword": "Lowest rates",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bluxury\\b",
+  "flags": "gi",
+  "keyword": "Luxury",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bluxury car\\b",
+  "flags": "gi",
+  "keyword": "Luxury car",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bmail in order form\\b",
+  "flags": "gi",
+  "keyword": "Mail in order form",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bmain in order form\\b",
+  "flags": "gi",
+  "keyword": "Main in order form",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bmark this as not junk\\b",
+  "flags": "gi",
+  "keyword": "Mark this as not junk",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bmass email\\b",
+  "flags": "gi",
+  "keyword": "Mass email",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bmedical\\b",
+  "flags": "gi",
+  "keyword": "Medical",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bmedicine\\b",
+  "flags": "gi",
+  "keyword": "Medicine",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bmeet girls\\b",
+  "flags": "gi",
+  "keyword": "Meet girls",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bmeet me\\b",
+  "flags": "gi",
+  "keyword": "Meet me",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bmeet singles\\b",
+  "flags": "gi",
+  "keyword": "Meet singles",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bmeet women\\b",
+  "flags": "gi",
+  "keyword": "Meet women",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bmember\\b",
+  "flags": "gi",
+  "keyword": "Member",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bmember stuff\\b",
+  "flags": "gi",
+  "keyword": "Member stuff",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bmessage contains disclaimer\\b",
+  "flags": "gi",
+  "keyword": "Message contains disclaimer",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bmessage from\\b",
+  "flags": "gi",
+  "keyword": "Message from",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bmillionaire\\b",
+  "flags": "gi",
+  "keyword": "Millionaire",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bmillions\\b",
+  "flags": "gi",
+  "keyword": "Millions",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bmlm\\b",
+  "flags": "gi",
+  "keyword": "MLM",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bmulti-level marketing\\b",
+  "flags": "gi",
+  "keyword": "Multi-level marketing",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bname\\b",
+  "flags": "gi",
+  "keyword": "Name",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bnear you\\b",
+  "flags": "gi",
+  "keyword": "Near you",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bnever before\\b",
+  "flags": "gi",
+  "keyword": "Never before",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bnew\\b",
+  "flags": "gi",
+  "keyword": "New",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bnew domain extensions\\b",
+  "flags": "gi",
+  "keyword": "New domain extensions",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bnigerian\\b",
+  "flags": "gi",
+  "keyword": "Nigerian",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bno age restrictions\\b",
+  "flags": "gi",
+  "keyword": "No age restrictions",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bno catch\\b",
+  "flags": "gi",
+  "keyword": "No catch",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bno claim forms\\b",
+  "flags": "gi",
+  "keyword": "No claim forms",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bno cost\\b",
+  "flags": "gi",
+  "keyword": "No cost",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bno credit check\\b",
+  "flags": "gi",
+  "keyword": "No credit check",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bno credit experience\\b",
+  "flags": "gi",
+  "keyword": "No credit experience",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bno deposit required\\b",
+  "flags": "gi",
+  "keyword": "No deposit required",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bno disappointment\\b",
+  "flags": "gi",
+  "keyword": "No disappointment",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bno experience\\b",
+  "flags": "gi",
+  "keyword": "No experience",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bno fees\\b",
+  "flags": "gi",
+  "keyword": "No fees",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bno gimmick\\b",
+  "flags": "gi",
+  "keyword": "No gimmick",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bno hidden\\b",
+  "flags": "gi",
+  "keyword": "No hidden",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bno hidden costs\\b",
+  "flags": "gi",
+  "keyword": "No hidden costs",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bno hidden fees\\b",
+  "flags": "gi",
+  "keyword": "No hidden fees",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bno hidden сosts\\b",
+  "flags": "gi",
+  "keyword": "No hidden сosts",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bno interest\\b",
+  "flags": "gi",
+  "keyword": "No interest",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bno interests\\b",
+  "flags": "gi",
+  "keyword": "No interests",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bno inventory\\b",
+  "flags": "gi",
+  "keyword": "No inventory",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bno investment\\b",
+  "flags": "gi",
+  "keyword": "No investment",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bno investment required\\b",
+  "flags": "gi",
+  "keyword": "No investment required",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bno medical exams\\b",
+  "flags": "gi",
+  "keyword": "No medical exams",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bno middleman\\b",
+  "flags": "gi",
+  "keyword": "No middleman",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bno obligation\\b",
+  "flags": "gi",
+  "keyword": "No obligation",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bno payment required\\b",
+  "flags": "gi",
+  "keyword": "No payment required",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bno purchase necessary\\b",
+  "flags": "gi",
+  "keyword": "No purchase necessary",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bno questions asked\\b",
+  "flags": "gi",
+  "keyword": "No questions asked",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bno selling\\b",
+  "flags": "gi",
+  "keyword": "No selling",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bno strings attached\\b",
+  "flags": "gi",
+  "keyword": "No strings attached",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bno-obligation\\b",
+  "flags": "gi",
+  "keyword": "No-obligation",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bnominated bank account\\b",
+  "flags": "gi",
+  "keyword": "Nominated bank account",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bnot intended\\b",
+  "flags": "gi",
+  "keyword": "Not intended",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bnot junk\\b",
+  "flags": "gi",
+  "keyword": "Not junk",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bnot scam\\b",
+  "flags": "gi",
+  "keyword": "Not scam",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bnot spam\\b",
+  "flags": "gi",
+  "keyword": "Not spam",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bnotspam\\b",
+  "flags": "gi",
+  "keyword": "Notspam",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bnumber 1\\b",
+  "flags": "gi",
+  "keyword": "Number 1",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bobligation\\b",
+  "flags": "gi",
+  "keyword": "Obligation",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\boff\\b",
+  "flags": "gi",
+  "keyword": "Off",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\boff everything\\b",
+  "flags": "gi",
+  "keyword": "Off everything",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\boff shore\\b",
+  "flags": "gi",
+  "keyword": "Off shore",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\boffer extended\\b",
+  "flags": "gi",
+  "keyword": "Offer extended",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\boffers\\b",
+  "flags": "gi",
+  "keyword": "Offers",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\boffshore\\b",
+  "flags": "gi",
+  "keyword": "Offshore",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bone hundred percent\\b",
+  "flags": "gi",
+  "keyword": "One hundred percent",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bone-time\\b",
+  "flags": "gi",
+  "keyword": "One-time",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bonline biz opportunity\\b",
+  "flags": "gi",
+  "keyword": "Online biz opportunity",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bonline degree\\b",
+  "flags": "gi",
+  "keyword": "Online degree",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bonline income\\b",
+  "flags": "gi",
+  "keyword": "Online income",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bonline job\\b",
+  "flags": "gi",
+  "keyword": "Online job",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bopen\\b",
+  "flags": "gi",
+  "keyword": "Open",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bopportunity\\b",
+  "flags": "gi",
+  "keyword": "Opportunity",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bopt-in\\b",
+  "flags": "gi",
+  "keyword": "Opt-in",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\border\\b",
+  "flags": "gi",
+  "keyword": "Order",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\border shipped by\\b",
+  "flags": "gi",
+  "keyword": "Order shipped by",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\border status\\b",
+  "flags": "gi",
+  "keyword": "Order status",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\borders shipped by\\b",
+  "flags": "gi",
+  "keyword": "Orders shipped by",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\borders shipped by shopper\\b",
+  "flags": "gi",
+  "keyword": "Orders shipped by shopper",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\boutstanding value\\b",
+  "flags": "gi",
+  "keyword": "Outstanding value",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\boutstanding values\\b",
+  "flags": "gi",
+  "keyword": "Outstanding values",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bpassword\\b",
+  "flags": "gi",
+  "keyword": "Password",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bpasswords\\b",
+  "flags": "gi",
+  "keyword": "Passwords",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bpay your bills\\b",
+  "flags": "gi",
+  "keyword": "Pay your bills",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bper (day|week|year)\\b",
+  "flags": "gi",
+  "keyword": "Per day/per week/per year",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bper month\\b",
+  "flags": "gi",
+  "keyword": "Per month",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bperfect\\b",
+  "flags": "gi",
+  "keyword": "Perfect",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bperformance\\b",
+  "flags": "gi",
+  "keyword": "Performance",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bphone\\b",
+  "flags": "gi",
+  "keyword": "Phone",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bplease\\b",
+  "flags": "gi",
+  "keyword": "Please",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bplease open\\b",
+  "flags": "gi",
+  "keyword": "Please open",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bpresently\\b",
+  "flags": "gi",
+  "keyword": "Presently",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bprint form signature\\b",
+  "flags": "gi",
+  "keyword": "Print form signature",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bprint from signature\\b",
+  "flags": "gi",
+  "keyword": "Print from signature",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bprint out and fax\\b",
+  "flags": "gi",
+  "keyword": "Print out and fax",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bpriority mail\\b",
+  "flags": "gi",
+  "keyword": "Priority mail",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bprivately owned funds\\b",
+  "flags": "gi",
+  "keyword": "Privately owned funds",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bprizes\\b",
+  "flags": "gi",
+  "keyword": "Prizes",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bproblem with shipping\\b",
+  "flags": "gi",
+  "keyword": "Problem with shipping",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bproblem with your order\\b",
+  "flags": "gi",
+  "keyword": "Problem with your order",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bproduced and sent out\\b",
+  "flags": "gi",
+  "keyword": "Produced and sent out",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bprofit\\b",
+  "flags": "gi",
+  "keyword": "Profit",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bpromise you\\b",
+  "flags": "gi",
+  "keyword": "Promise you",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bpurchase\\b",
+  "flags": "gi",
+  "keyword": "Purchase",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bpure profits\\b",
+  "flags": "gi",
+  "keyword": "Pure Profits",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bquotes\\b",
+  "flags": "gi",
+  "keyword": "Quotes",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\brate\\b",
+  "flags": "gi",
+  "keyword": "Rate",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\breal thing\\b",
+  "flags": "gi",
+  "keyword": "Real thing",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\brebate\\b",
+  "flags": "gi",
+  "keyword": "Rebate",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\breduce debt\\b",
+  "flags": "gi",
+  "keyword": "Reduce debt",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\brefinance home\\b",
+  "flags": "gi",
+  "keyword": "Refinance home",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\brefinanced home\\b",
+  "flags": "gi",
+  "keyword": "Refinanced home",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\brefund\\b",
+  "flags": "gi",
+  "keyword": "Refund",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bregarding\\b",
+  "flags": "gi",
+  "keyword": "Regarding",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bremoval instructions\\b",
+  "flags": "gi",
+  "keyword": "Removal instructions",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bremoves\\b",
+  "flags": "gi",
+  "keyword": "Removes",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bremoves wrinkles\\b",
+  "flags": "gi",
+  "keyword": "Removes wrinkles",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\breplica watches\\b",
+  "flags": "gi",
+  "keyword": "Replica watches",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\brequest\\b",
+  "flags": "gi",
+  "keyword": "Request",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\brequest now\\b",
+  "flags": "gi",
+  "keyword": "Request now",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\brequest today\\b",
+  "flags": "gi",
+  "keyword": "Request today",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\brequires initial investment\\b",
+  "flags": "gi",
+  "keyword": "Requires initial investment",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\brequires investment\\b",
+  "flags": "gi",
+  "keyword": "Requires investment",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\breverses aging\\b",
+  "flags": "gi",
+  "keyword": "Reverses aging",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\brisk free\\b",
+  "flags": "gi",
+  "keyword": "Risk free",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\brolex\\b",
+  "flags": "gi",
+  "keyword": "Rolex",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bround the world\\b",
+  "flags": "gi",
+  "keyword": "Round the world",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bs 1618\\b",
+  "flags": "gi",
+  "keyword": "S 1618",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bsafeguard notice\\b",
+  "flags": "gi",
+  "keyword": "Safeguard notice",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bsale\\b",
+  "flags": "gi",
+  "keyword": "Sale",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bsales\\b",
+  "flags": "gi",
+  "keyword": "Sales",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bsave\\b",
+  "flags": "gi",
+  "keyword": "Save",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bsave big\\b",
+  "flags": "gi",
+  "keyword": "Save big",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bsave big month\\b",
+  "flags": "gi",
+  "keyword": "Save big month",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bsave money\\b",
+  "flags": "gi",
+  "keyword": "Save money",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bsave now\\b",
+  "flags": "gi",
+  "keyword": "Save now",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bscore with babes\\b",
+  "flags": "gi",
+  "keyword": "Score with babes",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bsearch engine optimisation\\b",
+  "flags": "gi",
+  "keyword": "Search engine optimisation",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bsection 301\\b",
+  "flags": "gi",
+  "keyword": "Section 301",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bsee for yourself\\b",
+  "flags": "gi",
+  "keyword": "See for yourself",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bseen on\\b",
+  "flags": "gi",
+  "keyword": "Seen on",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bserious\\b",
+  "flags": "gi",
+  "keyword": "Serious",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bserious case\\b",
+  "flags": "gi",
+  "keyword": "Serious case",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bserious offer\\b",
+  "flags": "gi",
+  "keyword": "Serious offer",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bserious only\\b",
+  "flags": "gi",
+  "keyword": "Serious only",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bsex\\b",
+  "flags": "gi",
+  "keyword": "Sex",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bshop now\\b",
+  "flags": "gi",
+  "keyword": "Shop now",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bshopper\\b",
+  "flags": "gi",
+  "keyword": "Shopper",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bshopping spree\\b",
+  "flags": "gi",
+  "keyword": "Shopping spree",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bsnoring\\b",
+  "flags": "gi",
+  "keyword": "Snoring",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bsocial security number\\b",
+  "flags": "gi",
+  "keyword": "Social security number",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bsoon\\b",
+  "flags": "gi",
+  "keyword": "Soon",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bspam\\b",
+  "flags": "gi",
+  "keyword": "Spam",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bspam free\\b",
+  "flags": "gi",
+  "keyword": "Spam free",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bspecial deal\\b",
+  "flags": "gi",
+  "keyword": "Special deal",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bspecial discount\\b",
+  "flags": "gi",
+  "keyword": "Special discount",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bspecial for you\\b",
+  "flags": "gi",
+  "keyword": "Special for you",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bspecial offer\\b",
+  "flags": "gi",
+  "keyword": "Special offer",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bstainless steel\\b",
+  "flags": "gi",
+  "keyword": "Stainless steel",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bstock alert\\b",
+  "flags": "gi",
+  "keyword": "Stock alert",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bstock disclaimer statement\\b",
+  "flags": "gi",
+  "keyword": "Stock disclaimer statement",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bstock pick\\b",
+  "flags": "gi",
+  "keyword": "Stock pick",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bstocks? (pick|alert)\\b",
+  "flags": "gi",
+  "keyword": "Stocks/stock pick/stock alert",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bstop calling me\\b",
+  "flags": "gi",
+  "keyword": "Stop calling me",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bstop emailing me\\b",
+  "flags": "gi",
+  "keyword": "Stop emailing me",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bstop further distribution\\b",
+  "flags": "gi",
+  "keyword": "Stop further distribution",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bstop snoring\\b",
+  "flags": "gi",
+  "keyword": "Stop snoring",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bstrong buy\\b",
+  "flags": "gi",
+  "keyword": "Strong buy",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bstuff on sale\\b",
+  "flags": "gi",
+  "keyword": "Stuff on sale",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bsubject to\\b",
+  "flags": "gi",
+  "keyword": "Subject to",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bsubject to cash\\b",
+  "flags": "gi",
+  "keyword": "Subject to cash",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bsubscribe\\b",
+  "flags": "gi",
+  "keyword": "Subscribe",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bsubscribe for free\\b",
+  "flags": "gi",
+  "keyword": "Subscribe for free",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bsubscribe now\\b",
+  "flags": "gi",
+  "keyword": "Subscribe now",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bsuper promo\\b",
+  "flags": "gi",
+  "keyword": "Super promo",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bsupplies\\b",
+  "flags": "gi",
+  "keyword": "Supplies",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\btack action now\\b",
+  "flags": "gi",
+  "keyword": "Tack action now",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\btalks about hidden charges\\b",
+  "flags": "gi",
+  "keyword": "Talks about hidden charges",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\btalks about prizes\\b",
+  "flags": "gi",
+  "keyword": "Talks about prizes",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\btells you it’s an ad\\b",
+  "flags": "gi",
+  "keyword": "Tells you it’s an ad",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bterms\\b",
+  "flags": "gi",
+  "keyword": "Terms",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bthe best rates\\b",
+  "flags": "gi",
+  "keyword": "The best rates",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bthe email asks for a credit card\\b",
+  "flags": "gi",
+  "keyword": "The email asks for a credit card",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bthe following form\\b",
+  "flags": "gi",
+  "keyword": "The following form",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bthey make a claim or claims that they're in accordance with spam law\\b",
+  "flags": "gi",
+  "keyword": "They make a claim or claims that they're in accordance with spam law",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bthey try to keep your money no refund\\b",
+  "flags": "gi",
+  "keyword": "They try to keep your money no refund",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bthey’re just giving it away\\b",
+  "flags": "gi",
+  "keyword": "They’re just giving it away",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bthis isn't junk\\b",
+  "flags": "gi",
+  "keyword": "This isn't junk",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bthis isn't spam\\b",
+  "flags": "gi",
+  "keyword": "This isn't spam",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bthis isn’t a scam\\b",
+  "flags": "gi",
+  "keyword": "This isn’t a scam",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bthis isn’t junk\\b",
+  "flags": "gi",
+  "keyword": "This isn’t junk",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bthis isn’t spam\\b",
+  "flags": "gi",
+  "keyword": "This isn’t spam",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\btimeshare\\b",
+  "flags": "gi",
+  "keyword": "Timeshare",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\btimeshare offers\\b",
+  "flags": "gi",
+  "keyword": "Timeshare offers",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\btraffic\\b",
+  "flags": "gi",
+  "keyword": "Traffic",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\btrial unlimited\\b",
+  "flags": "gi",
+  "keyword": "Trial unlimited",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bu.s. dollars\\b",
+  "flags": "gi",
+  "keyword": "U.S. dollars",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bundisclosed\\b",
+  "flags": "gi",
+  "keyword": "Undisclosed",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bundisclosed recipient\\b",
+  "flags": "gi",
+  "keyword": "Undisclosed recipient",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\buniversity diplomas\\b",
+  "flags": "gi",
+  "keyword": "University diplomas",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bunsecured credit\\b",
+  "flags": "gi",
+  "keyword": "Unsecured credit",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bunsecured debt\\b",
+  "flags": "gi",
+  "keyword": "Unsecured debt",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bunsolicited\\b",
+  "flags": "gi",
+  "keyword": "Unsolicited",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bunsubscribe\\b",
+  "flags": "gi",
+  "keyword": "Unsubscribe",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\burgent response\\b",
+  "flags": "gi",
+  "keyword": "Urgent response",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bUS Dollars|euros\\b",
+  "flags": "gi",
+  "keyword": "US Dollars / Euros",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bvacation\\b",
+  "flags": "gi",
+  "keyword": "Vacation",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bvacation offers\\b",
+  "flags": "gi",
+  "keyword": "Vacation offers",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bvalium\\b",
+  "flags": "gi",
+  "keyword": "Valium",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bviagra\\b",
+  "flags": "gi",
+  "keyword": "Viagra",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bvicodin\\b",
+  "flags": "gi",
+  "keyword": "Vicodin",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bvip\\b",
+  "flags": "gi",
+  "keyword": "VIP",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bvisit our website\\b",
+  "flags": "gi",
+  "keyword": "Visit our website",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bwants credit card\\b",
+  "flags": "gi",
+  "keyword": "Wants credit card",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bwarranty expired\\b",
+  "flags": "gi",
+  "keyword": "Warranty expired",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bwe hate spam\\b",
+  "flags": "gi",
+  "keyword": "We hate spam",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bwe honor all\\b",
+  "flags": "gi",
+  "keyword": "We honor all",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bwebsite visitors\\b",
+  "flags": "gi",
+  "keyword": "Website visitors",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bweekend getaway\\b",
+  "flags": "gi",
+  "keyword": "Weekend getaway",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bweight loss\\b",
+  "flags": "gi",
+  "keyword": "Weight loss",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bwhat’s keeping you\\?\\b",
+  "flags": "gi",
+  "keyword": "What’s keeping you?",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bwhile available\\b",
+  "flags": "gi",
+  "keyword": "While available",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bwhile in stock\\b",
+  "flags": "gi",
+  "keyword": "While in stock",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bwhile stocks last\\b",
+  "flags": "gi",
+  "keyword": "While stocks last",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bwhile you sleep\\b",
+  "flags": "gi",
+  "keyword": "While you sleep",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bwho really wins\\?\\b",
+  "flags": "gi",
+  "keyword": "Who really wins?",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bwin\\b",
+  "flags": "gi",
+  "keyword": "Win",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bwinner\\b",
+  "flags": "gi",
+  "keyword": "Winner",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bwinning\\b",
+  "flags": "gi",
+  "keyword": "Winning",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bwon\\b",
+  "flags": "gi",
+  "keyword": "Won",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bxanax\\b",
+  "flags": "gi",
+  "keyword": "Xanax",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bxxx\\b",
+  "flags": "gi",
+  "keyword": "XXX",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\byou have been chosen\\b",
+  "flags": "gi",
+  "keyword": "You have been chosen",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\byou have been selected\\b",
+  "flags": "gi",
+  "keyword": "You have been selected",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\byour chance\\b",
+  "flags": "gi",
+  "keyword": "Your chance",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\byour status\\b",
+  "flags": "gi",
+  "keyword": "Your status",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bzero chance\\b",
+  "flags": "gi",
+  "keyword": "Zero chance",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bzero percent\\b",
+  "flags": "gi",
+  "keyword": "Zero percent",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\bzero risk\\b",
+  "flags": "gi",
+  "keyword": "Zero risk",
+  "category": "shady"
+ },
+ {
+  "pattern": "\\b#1\\b",
+  "flags": "gi",
+  "keyword": "#1",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "[0-9]+%",
+  "flags": "gi",
+  "keyword": "%",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "[0-9]+% free",
+  "flags": "gi",
+  "keyword": "% free",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\b[0-9]+% satisfied\\b",
+  "flags": "gi",
+  "keyword": "% Satisfied",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\b[0-9]+%\\b",
+  "flags": "gi",
+  "keyword": "0%",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\b[0-9]+% risk\\b",
+  "flags": "gi",
+  "keyword": "0% risk",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\b100%\\b",
+  "flags": "gi",
+  "keyword": "100%",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\b100% free\\b",
+  "flags": "gi",
+  "keyword": "100% free",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\b100% more\\b",
+  "flags": "gi",
+  "keyword": "100% more",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\b100% off\\b",
+  "flags": "gi",
+  "keyword": "100% off",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\b100% satisfied\\b",
+  "flags": "gi",
+  "keyword": "100% satisfied",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\b99.90%\\b",
+  "flags": "gi",
+  "keyword": "99.90%",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\b99%\\b",
+  "flags": "gi",
+  "keyword": "99%",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\baccess for free\\b",
+  "flags": "gi",
+  "keyword": "Access for free",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\badditional income\\b",
+  "flags": "gi",
+  "keyword": "Additional income",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bamazed\\b",
+  "flags": "gi",
+  "keyword": "Amazed",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bamazing\\b",
+  "flags": "gi",
+  "keyword": "Amazing",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bamazing offer\\b",
+  "flags": "gi",
+  "keyword": "Amazing offer",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bamazing stuff\\b",
+  "flags": "gi",
+  "keyword": "Amazing stuff",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bbe amazed\\b",
+  "flags": "gi",
+  "keyword": "Be amazed",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bbe surprised\\b",
+  "flags": "gi",
+  "keyword": "Be surprised",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bbe your own boss\\b",
+  "flags": "gi",
+  "keyword": "Be your own boss",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bbelieve me\\b",
+  "flags": "gi",
+  "keyword": "Believe me",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bbest bargain\\b",
+  "flags": "gi",
+  "keyword": "Best bargain",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bbest deal\\b",
+  "flags": "gi",
+  "keyword": "Best deal",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bbest offer\\b",
+  "flags": "gi",
+  "keyword": "Best offer",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bbest price\\b",
+  "flags": "gi",
+  "keyword": "Best price",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bbest rates\\b",
+  "flags": "gi",
+  "keyword": "Best rates",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bbig bucks\\b",
+  "flags": "gi",
+  "keyword": "Big bucks",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bbonus\\b",
+  "flags": "gi",
+  "keyword": "Bonus",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bboss\\b",
+  "flags": "gi",
+  "keyword": "Boss",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bcan’t live without\\b",
+  "flags": "gi",
+  "keyword": "Can’t live without",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bcancel\\b",
+  "flags": "gi",
+  "keyword": "Cancel",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bconsolidate debt\\b",
+  "flags": "gi",
+  "keyword": "Consolidate debt",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bdouble your cash\\b",
+  "flags": "gi",
+  "keyword": "Double your cash",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bdouble your income\\b",
+  "flags": "gi",
+  "keyword": "Double your income",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bdrastically reduced\\b",
+  "flags": "gi",
+  "keyword": "Drastically reduced",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bearn extra cash\\b",
+  "flags": "gi",
+  "keyword": "Earn extra cash",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bearn money\\b",
+  "flags": "gi",
+  "keyword": "Earn money",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\beliminate bad credit\\b",
+  "flags": "gi",
+  "keyword": "Eliminate bad credit",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bexpect to earn\\b",
+  "flags": "gi",
+  "keyword": "Expect to earn",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bextra\\b",
+  "flags": "gi",
+  "keyword": "Extra",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bextra cash\\b",
+  "flags": "gi",
+  "keyword": "Extra cash",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bextra income\\b",
+  "flags": "gi",
+  "keyword": "Extra income",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bfantastic\\b",
+  "flags": "gi",
+  "keyword": "Fantastic",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bfantastic deal\\b",
+  "flags": "gi",
+  "keyword": "Fantastic deal",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bfantastic offer\\b",
+  "flags": "gi",
+  "keyword": "Fantastic offer",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bfast\\b",
+  "flags": "gi",
+  "keyword": "FAST",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bfast cash\\b",
+  "flags": "gi",
+  "keyword": "Fast cash",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bfinancial freedom\\b",
+  "flags": "gi",
+  "keyword": "Financial freedom",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bfree access\\b",
+  "flags": "gi",
+  "keyword": "Free access",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bfree consultation\\b",
+  "flags": "gi",
+  "keyword": "Free consultation",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bfree gift\\b",
+  "flags": "gi",
+  "keyword": "Free gift",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bfree hosting\\b",
+  "flags": "gi",
+  "keyword": "Free hosting",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bfree info\\b",
+  "flags": "gi",
+  "keyword": "Free info",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bfree investment\\b",
+  "flags": "gi",
+  "keyword": "Free investment",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bfree membership\\b",
+  "flags": "gi",
+  "keyword": "Free membership",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bfree money\\b",
+  "flags": "gi",
+  "keyword": "Free money",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bfree preview\\b",
+  "flags": "gi",
+  "keyword": "Free preview",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bfree quote\\b",
+  "flags": "gi",
+  "keyword": "Free quote",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bfree trial\\b",
+  "flags": "gi",
+  "keyword": "Free trial",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bfull refund\\b",
+  "flags": "gi",
+  "keyword": "Full refund",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bget out of debt\\b",
+  "flags": "gi",
+  "keyword": "Get out of debt",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bgiveaway\\b",
+  "flags": "gi",
+  "keyword": "Giveaway",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bguaranteed\\b",
+  "flags": "gi",
+  "keyword": "Guaranteed",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bincrease sales\\b",
+  "flags": "gi",
+  "keyword": "Increase sales",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bincrease traffic\\b",
+  "flags": "gi",
+  "keyword": "Increase traffic",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bincredible deal\\b",
+  "flags": "gi",
+  "keyword": "Incredible deal",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bjoin billions\\b",
+  "flags": "gi",
+  "keyword": "Join billions",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bjoin millions\\b",
+  "flags": "gi",
+  "keyword": "Join millions",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bjoin millions of americans\\b",
+  "flags": "gi",
+  "keyword": "Join millions of Americans",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bjoin thousands\\b",
+  "flags": "gi",
+  "keyword": "Join thousands",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\blower rates\\b",
+  "flags": "gi",
+  "keyword": "Lower rates",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\blowest price\\b",
+  "flags": "gi",
+  "keyword": "Lowest price",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bmake money\\b",
+  "flags": "gi",
+  "keyword": "Make money",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bmillion\\b",
+  "flags": "gi",
+  "keyword": "Million",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bmillion dollars\\b",
+  "flags": "gi",
+  "keyword": "Million dollars",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bmiracle\\b",
+  "flags": "gi",
+  "keyword": "Miracle",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bmoney back\\b",
+  "flags": "gi",
+  "keyword": "Money back",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bmonth trial offer\\b",
+  "flags": "gi",
+  "keyword": "Month trial offer",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bmore internet traffic\\b",
+  "flags": "gi",
+  "keyword": "More Internet Traffic",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bnumber one\\b",
+  "flags": "gi",
+  "keyword": "Number one",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bonce in a lifetime\\b",
+  "flags": "gi",
+  "keyword": "Once in a lifetime",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bone hundred percent guaranteed\\b",
+  "flags": "gi",
+  "keyword": "One hundred percent guaranteed",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bone time\\b",
+  "flags": "gi",
+  "keyword": "One time",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bpennies a day\\b",
+  "flags": "gi",
+  "keyword": "Pennies a day",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bpotential earnings\\b",
+  "flags": "gi",
+  "keyword": "Potential earnings",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bprize\\b",
+  "flags": "gi",
+  "keyword": "Prize",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bpromise\\b",
+  "flags": "gi",
+  "keyword": "Promise",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bpure profit\\b",
+  "flags": "gi",
+  "keyword": "Pure profit",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\brisk-free\\b",
+  "flags": "gi",
+  "keyword": "Risk-free",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bsatisfaction guaranteed\\b",
+  "flags": "gi",
+  "keyword": "Satisfaction guaranteed",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bsave big money\\b",
+  "flags": "gi",
+  "keyword": "Save big money",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bsave up to\\b",
+  "flags": "gi",
+  "keyword": "Save up to",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bspecial promotion\\b",
+  "flags": "gi",
+  "keyword": "Special promotion",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bthe best\\b",
+  "flags": "gi",
+  "keyword": "The best",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bthousands\\b",
+  "flags": "gi",
+  "keyword": "Thousands",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bunbeatable offer\\b",
+  "flags": "gi",
+  "keyword": "Unbeatable offer",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bunbelievable\\b",
+  "flags": "gi",
+  "keyword": "Unbelievable",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bunlimited\\b",
+  "flags": "gi",
+  "keyword": "Unlimited",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bunlimited trial\\b",
+  "flags": "gi",
+  "keyword": "Unlimited trial",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\bwonderful\\b",
+  "flags": "gi",
+  "keyword": "Wonderful",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "\\byou will not believe your eyes\\b",
+  "flags": "gi",
+  "keyword": "You will not believe your eyes",
+  "category": "overpromise"
+ },
+ {
+  "pattern": "[\\$£€¥]+[0-9\\.\\,]+",
+  "flags": "gi",
+  "keyword": "$$$",
+  "category": "money"
+ },
+ {
+  "pattern": "[0-9\\.\\,]+[\\$£€¥]+",
+  "flags": "gi",
+  "keyword": "€€€",
+  "category": "money"
+ },
+ {
+  "pattern": "[\\$£€¥]{2,}",
+  "flags": "gi",
+  "keyword": "£££",
+  "category": "money"
+ },
+ {
+  "pattern": "\\b[0-9\\.,]+%( off)?\\b",
+  "flags": "gi",
+  "keyword": "50% off",
+  "category": "money"
+ },
+ {
+  "pattern": "\\ba few bob\\b",
+  "flags": "gi",
+  "keyword": "A few bob",
+  "category": "money"
+ },
+ {
+  "pattern": "\\baccept cash cards\\b",
+  "flags": "gi",
+  "keyword": "Accept cash cards",
+  "category": "money"
+ },
+ {
+  "pattern": "\\baccept credit cards\\b",
+  "flags": "gi",
+  "keyword": "Accept credit cards",
+  "category": "money"
+ },
+ {
+  "pattern": "\\baffordable\\b",
+  "flags": "gi",
+  "keyword": "Affordable",
+  "category": "money"
+ },
+ {
+  "pattern": "\\baffordable deal\\b",
+  "flags": "gi",
+  "keyword": "Affordable deal",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bavoid bankruptcy\\b",
+  "flags": "gi",
+  "keyword": "Avoid bankruptcy",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bbad credit\\b",
+  "flags": "gi",
+  "keyword": "Bad credit",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bbank\\b",
+  "flags": "gi",
+  "keyword": "Bank",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bbankruptcy\\b",
+  "flags": "gi",
+  "keyword": "Bankruptcy",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bbargain\\b",
+  "flags": "gi",
+  "keyword": "Bargain",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bbilling\\b",
+  "flags": "gi",
+  "keyword": "Billing",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bbilling address\\b",
+  "flags": "gi",
+  "keyword": "Billing address",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bbillion\\b",
+  "flags": "gi",
+  "keyword": "Billion",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bbillion dollars\\b",
+  "flags": "gi",
+  "keyword": "Billion dollars",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bbillionaire\\b",
+  "flags": "gi",
+  "keyword": "Billionaire",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bcard accepted\\b",
+  "flags": "gi",
+  "keyword": "Card accepted",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bcards accepted\\b",
+  "flags": "gi",
+  "keyword": "Cards accepted",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bcash\\b",
+  "flags": "gi",
+  "keyword": "Cash",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bcash bonus\\b",
+  "flags": "gi",
+  "keyword": "Cash bonus",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bcash out\\b",
+  "flags": "gi",
+  "keyword": "Cash out",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bcash-out\\b",
+  "flags": "gi",
+  "keyword": "Cash-out",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bcashcashcash\\b",
+  "flags": "gi",
+  "keyword": "Cashcashcash",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bcasino\\b",
+  "flags": "gi",
+  "keyword": "Casino",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bcents on the dollar\\b",
+  "flags": "gi",
+  "keyword": "Cents on the dollar",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bcheck\\b",
+  "flags": "gi",
+  "keyword": "Check",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bcheck or money order\\b",
+  "flags": "gi",
+  "keyword": "Check or money order",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bclaim your discount\\b",
+  "flags": "gi",
+  "keyword": "Claim your discount",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bcost\\b",
+  "flags": "gi",
+  "keyword": "Cost",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bcosts\\b",
+  "flags": "gi",
+  "keyword": "Costs",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bcredit\\b",
+  "flags": "gi",
+  "keyword": "Credit",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bcredit bureaus\\b",
+  "flags": "gi",
+  "keyword": "Credit bureaus",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bcredit card\\b",
+  "flags": "gi",
+  "keyword": "Credit card",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bcredit card offers\\b",
+  "flags": "gi",
+  "keyword": "Credit card offers",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bcredit or debit\\b",
+  "flags": "gi",
+  "keyword": "Credit or Debit",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bdeal\\b",
+  "flags": "gi",
+  "keyword": "Deal",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bdebt\\b",
+  "flags": "gi",
+  "keyword": "Debt",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bdiscount\\b",
+  "flags": "gi",
+  "keyword": "Discount",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bdollars\\b",
+  "flags": "gi",
+  "keyword": "Dollars",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bdouble your\\b",
+  "flags": "gi",
+  "keyword": "Double your",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bdouble your wealth\\b",
+  "flags": "gi",
+  "keyword": "Double your wealth",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bearn\\b",
+  "flags": "gi",
+  "keyword": "Earn",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bearn [\\$£€¥]+\\b",
+  "flags": "gi",
+  "keyword": "Earn $",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bearn cash\\b",
+  "flags": "gi",
+  "keyword": "Earn cash",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bearn extra income\\b",
+  "flags": "gi",
+  "keyword": "Earn extra income",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bearn from home\\b",
+  "flags": "gi",
+  "keyword": "Earn from home",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bearn monthly\\b",
+  "flags": "gi",
+  "keyword": "Earn monthly",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bearn per month\\b",
+  "flags": "gi",
+  "keyword": "Earn per month",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bearn per week\\b",
+  "flags": "gi",
+  "keyword": "Earn per week",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bearn your degree\\b",
+  "flags": "gi",
+  "keyword": "Earn your degree",
+  "category": "money"
+ },
+ {
+  "pattern": "\\beasy income\\b",
+  "flags": "gi",
+  "keyword": "Easy income",
+  "category": "money"
+ },
+ {
+  "pattern": "\\beasy terms\\b",
+  "flags": "gi",
+  "keyword": "Easy terms",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bf r e e\\b",
+  "flags": "gi",
+  "keyword": "F r e e",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bfor free\\b",
+  "flags": "gi",
+  "keyword": "For free",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bfor just [\\$£€¥]+\\b",
+  "flags": "gi",
+  "keyword": "For just $",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bfor just [\\$£€¥]+[0-9]+\\b",
+  "flags": "gi",
+  "keyword": "For just $ (amount)",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bfor just [\\$£€¥]+xxx\\b",
+  "flags": "gi",
+  "keyword": "For just $xxx",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bget money\\b",
+  "flags": "gi",
+  "keyword": "Get Money",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bget your money\\b",
+  "flags": "gi",
+  "keyword": "Get your money",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bhidden assets\\b",
+  "flags": "gi",
+  "keyword": "Hidden assets",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bhuge discount\\b",
+  "flags": "gi",
+  "keyword": "Huge discount",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bincome\\b",
+  "flags": "gi",
+  "keyword": "Income",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bincome from home\\b",
+  "flags": "gi",
+  "keyword": "Income from home",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bincrease revenue\\b",
+  "flags": "gi",
+  "keyword": "Increase revenue",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bincrease (sales|traffic)\\b",
+  "flags": "gi",
+  "keyword": "Increase sales/traffic",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bincrease your chances\\b",
+  "flags": "gi",
+  "keyword": "Increase your chances",
+  "category": "money"
+ },
+ {
+  "pattern": "\\binitial investment\\b",
+  "flags": "gi",
+  "keyword": "Initial investment",
+  "category": "money"
+ },
+ {
+  "pattern": "\\binstant earnings\\b",
+  "flags": "gi",
+  "keyword": "Instant earnings",
+  "category": "money"
+ },
+ {
+  "pattern": "\\binstant income\\b",
+  "flags": "gi",
+  "keyword": "Instant income",
+  "category": "money"
+ },
+ {
+  "pattern": "\\binsurance\\b",
+  "flags": "gi",
+  "keyword": "Insurance",
+  "category": "money"
+ },
+ {
+  "pattern": "\\binvestment\\b",
+  "flags": "gi",
+  "keyword": "Investment",
+  "category": "money"
+ },
+ {
+  "pattern": "\\binvestment advice\\b",
+  "flags": "gi",
+  "keyword": "Investment advice",
+  "category": "money"
+ },
+ {
+  "pattern": "\\blifetime\\b",
+  "flags": "gi",
+  "keyword": "Lifetime",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bloans\\b",
+  "flags": "gi",
+  "keyword": "Loans",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bmake [\\$£€¥]+\\b",
+  "flags": "gi",
+  "keyword": "Make $",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bmoney\\b",
+  "flags": "gi",
+  "keyword": "Money",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bmoney making\\b",
+  "flags": "gi",
+  "keyword": "Money making",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bmoney-back guarantee\\b",
+  "flags": "gi",
+  "keyword": "Money-back guarantee",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bmoney-making\\b",
+  "flags": "gi",
+  "keyword": "Money-making",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bmonthly payment\\b",
+  "flags": "gi",
+  "keyword": "Monthly payment",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bmortgage\\b",
+  "flags": "gi",
+  "keyword": "Mortgage",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bmortgage rates\\b",
+  "flags": "gi",
+  "keyword": "Mortgage rates",
+  "category": "money"
+ },
+ {
+  "pattern": "\\boffer\\b",
+  "flags": "gi",
+  "keyword": "Offer",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bone hundred percent free\\b",
+  "flags": "gi",
+  "keyword": "One hundred percent free",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bonly [\\$£€¥]+\\b",
+  "flags": "gi",
+  "keyword": "Only $",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bprice\\b",
+  "flags": "gi",
+  "keyword": "Price",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bprice protection\\b",
+  "flags": "gi",
+  "keyword": "Price protection",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bprices\\b",
+  "flags": "gi",
+  "keyword": "Prices",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bprofits\\b",
+  "flags": "gi",
+  "keyword": "Profits",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bquote\\b",
+  "flags": "gi",
+  "keyword": "Quote",
+  "category": "money"
+ },
+ {
+  "pattern": "\\brates\\b",
+  "flags": "gi",
+  "keyword": "Rates",
+  "category": "money"
+ },
+ {
+  "pattern": "\\brefinance\\b",
+  "flags": "gi",
+  "keyword": "Refinance",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bsave [\\$£€¥]+\\b",
+  "flags": "gi",
+  "keyword": "Save $",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bserious cash\\b",
+  "flags": "gi",
+  "keyword": "Serious cash",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bsubject to credit\\b",
+  "flags": "gi",
+  "keyword": "Subject to credit",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bUS Dollars\\b",
+  "flags": "gi",
+  "keyword": "US Dollars",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bwhy pay more\\?\\b",
+  "flags": "gi",
+  "keyword": "Why pay more?",
+  "category": "money"
+ },
+ {
+  "pattern": "\\byour income\\b",
+  "flags": "gi",
+  "keyword": "Your income",
+  "category": "money"
+ },
+ {
+  "pattern": "\\bacceptance\\b",
+  "flags": "gi",
+  "keyword": "Acceptance",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\baccordingly\\b",
+  "flags": "gi",
+  "keyword": "Accordingly",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\baccount-based marketing (abm)\\b",
+  "flags": "gi",
+  "keyword": "Account-based marketing (ABM)",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\baccounts\\b",
+  "flags": "gi",
+  "keyword": "Accounts",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\baddresses\\b",
+  "flags": "gi",
+  "keyword": "Addresses",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\baddresses on cd\\b",
+  "flags": "gi",
+  "keyword": "Addresses on CD",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bbeverage\\b",
+  "flags": "gi",
+  "keyword": "Beverage",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bconfidentiality on all orders\\b",
+  "flags": "gi",
+  "keyword": "Confidentiality on all orders",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bconfidentially on all orders\\b",
+  "flags": "gi",
+  "keyword": "Confidentially on all orders",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bcontent marketing\\b",
+  "flags": "gi",
+  "keyword": "Content marketing",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bdear(est)? (.+@.+)\\b",
+  "flags": "gi",
+  "keyword": "Dear [email address]",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bdear(est)? (email|friend|somebody)\\b",
+  "flags": "gi",
+  "keyword": "Dear [email/friend/somebody]",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bdear [first name]\\b",
+  "flags": "gi",
+  "keyword": "Dear [first name]",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bdear [wrong name]\\b",
+  "flags": "gi",
+  "keyword": "Dear [wrong name]",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bdigital marketing\\b",
+  "flags": "gi",
+  "keyword": "Digital marketing",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bdormant\\b",
+  "flags": "gi",
+  "keyword": "Dormant",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bemail extractor\\b",
+  "flags": "gi",
+  "keyword": "Email extractor",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bemail harvest\\b",
+  "flags": "gi",
+  "keyword": "Email harvest",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bemail marketing\\b",
+  "flags": "gi",
+  "keyword": "Email marketing",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bextract email\\b",
+  "flags": "gi",
+  "keyword": "Extract email",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bform\\b",
+  "flags": "gi",
+  "keyword": "Form",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bfreedom\\b",
+  "flags": "gi",
+  "keyword": "Freedom",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bfriend\\b",
+  "flags": "gi",
+  "keyword": "Friend",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bhere\\b",
+  "flags": "gi",
+  "keyword": "Here",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bhidden\\b",
+  "flags": "gi",
+  "keyword": "Hidden",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bhome\\b",
+  "flags": "gi",
+  "keyword": "Home",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bhome based\\b",
+  "flags": "gi",
+  "keyword": "Home based",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bhome employment\\b",
+  "flags": "gi",
+  "keyword": "Home employment",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bhome-based\\b",
+  "flags": "gi",
+  "keyword": "Home-based",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bhome-based business\\b",
+  "flags": "gi",
+  "keyword": "Home-based business",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bhomebased business\\b",
+  "flags": "gi",
+  "keyword": "Homebased business",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bif you no longer wish to receive\\b",
+  "flags": "gi",
+  "keyword": "If you no longer wish to receive",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bimportant information regarding\\b",
+  "flags": "gi",
+  "keyword": "Important information regarding",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bin accordance with laws\\b",
+  "flags": "gi",
+  "keyword": "In accordance with laws",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bincrease your sales\\b",
+  "flags": "gi",
+  "keyword": "Increase your sales",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\binternet market\\b",
+  "flags": "gi",
+  "keyword": "Internet market",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bleave\\b",
+  "flags": "gi",
+  "keyword": "Leave",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\blose\\b",
+  "flags": "gi",
+  "keyword": "Lose",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bmaintained\\b",
+  "flags": "gi",
+  "keyword": "Maintained",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bmarketing\\b",
+  "flags": "gi",
+  "keyword": "Marketing",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bmarketing solution\\b",
+  "flags": "gi",
+  "keyword": "Marketing solution",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bmarketing solutions\\b",
+  "flags": "gi",
+  "keyword": "Marketing solutions",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bmedium\\b",
+  "flags": "gi",
+  "keyword": "Medium",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bmessage contains\\b",
+  "flags": "gi",
+  "keyword": "Message contains",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bmulti level marketing\\b",
+  "flags": "gi",
+  "keyword": "Multi level marketing",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bnever\\b",
+  "flags": "gi",
+  "keyword": "Never",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bone time mailing\\b",
+  "flags": "gi",
+  "keyword": "One time mailing",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bonline marketing\\b",
+  "flags": "gi",
+  "keyword": "Online marketing",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bonline pharmacy\\b",
+  "flags": "gi",
+  "keyword": "Online pharmacy",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bopt in\\b",
+  "flags": "gi",
+  "keyword": "Opt in",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bper day\\b",
+  "flags": "gi",
+  "keyword": "Per day",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bper week\\b",
+  "flags": "gi",
+  "keyword": "Per week",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bpre-approved\\b",
+  "flags": "gi",
+  "keyword": "Pre-approved",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bproblem\\b",
+  "flags": "gi",
+  "keyword": "Problem",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bremoval\\b",
+  "flags": "gi",
+  "keyword": "Removal",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bremove\\b",
+  "flags": "gi",
+  "keyword": "Remove",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\breserves the right\\b",
+  "flags": "gi",
+  "keyword": "Reserves the right",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\breverses\\b",
+  "flags": "gi",
+  "keyword": "Reverses",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bsample\\b",
+  "flags": "gi",
+  "keyword": "Sample",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bsatisfaction\\b",
+  "flags": "gi",
+  "keyword": "Satisfaction",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bscore\\b",
+  "flags": "gi",
+  "keyword": "Score",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bsearch engine\\b",
+  "flags": "gi",
+  "keyword": "Search engine",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bsearch engine listings\\b",
+  "flags": "gi",
+  "keyword": "Search engine listings",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bsearch engines\\b",
+  "flags": "gi",
+  "keyword": "Search engines",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bsent in compliance\\b",
+  "flags": "gi",
+  "keyword": "Sent in compliance",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bsolution\\b",
+  "flags": "gi",
+  "keyword": "Solution",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bstop\\b",
+  "flags": "gi",
+  "keyword": "Stop",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bsuccess\\b",
+  "flags": "gi",
+  "keyword": "Success",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bteen\\b",
+  "flags": "gi",
+  "keyword": "Teen",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bterms and conditions\\b",
+  "flags": "gi",
+  "keyword": "Terms and conditions",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bwarranty\\b",
+  "flags": "gi",
+  "keyword": "Warranty",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bweb traffic\\b",
+  "flags": "gi",
+  "keyword": "Web traffic",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bwife\\b",
+  "flags": "gi",
+  "keyword": "Wife",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bwork at home\\b",
+  "flags": "gi",
+  "keyword": "Work at home",
+  "category": "unnatural"
+ },
+ {
+  "pattern": "\\bwork from home\\b",
+  "flags": "gi",
+  "keyword": "Work from home",
+  "category": "unnatural"
+ }
+]
